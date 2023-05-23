@@ -1,0 +1,45 @@
+Added Component: Designator=C13_1(Cap_THT_Elko_rad_D8mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ax_rad"; Value = "rad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacity"; Value = "100u"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://de.rs-online.com/web/search/searchBrowseAction.html?method=getProduct&R=2286767"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_Elko_rad_100u_35V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name_Hyperlink"; Value = "Elko 100µF 35VDC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS_number"; Value = "228-6767"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "35V"; VariantName = "[No Variations]"
+Added Component: Designator=C13_2(Cap_THT_Elko_rad_D8mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ax_rad"; Value = "rad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacity"; Value = "100u"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://de.rs-online.com/web/search/searchBrowseAction.html?method=getProduct&R=2286767"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_Elko_rad_100u_35V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name_Hyperlink"; Value = "Elko 100µF 35VDC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS_number"; Value = "228-6767"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "35V"; VariantName = "[No Variations]"
+Added Component: Designator=C13_3(Cap_THT_Elko_rad_D8mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ax_rad"; Value = "rad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacity"; Value = "100u"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://de.rs-online.com/web/search/searchBrowseAction.html?method=getProduct&R=2286767"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_Elko_rad_100u_35V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name_Hyperlink"; Value = "Elko 100µF 35VDC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS_number"; Value = "228-6767"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "35V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=V+_1 Pin=C13_1-1
+Added Pin To Net: NetName=PGND_1 Pin=C13_1-2
+Added Pin To Net: NetName=V+_1 Pin=C13_2-1
+Added Pin To Net: NetName=PGND_1 Pin=C13_2-2
+Added Pin To Net: NetName=V+_1 Pin=C13_3-1
+Added Pin To Net: NetName=PGND_1 Pin=C13_3-2
+Added Member To Class: ClassName=Bridge_1 Member=Component C13_1 (C13) 100µF
+Added Member To Class: ClassName=Bridge_2 Member=Component C13_2 (C13) 100µF
+Added Member To Class: ClassName=Bridge_3 Member=Component C13_3 (C13) 100µF

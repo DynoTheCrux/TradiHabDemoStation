@@ -1,0 +1,7 @@
+Change Class Name : Old Net Name=U_OutputStage_1 New Net Name=Bridge_1
+Change Class Name : Old Net Name=U_OutputStage_2 New Net Name=Bridge_2
+Change Class Name : Old Net Name=U_OutputStage_3 New Net Name=Bridge_3
+Change Room Name: Old Name=U_OutputStage_3 New Name=Bridge_3
+Change Room Scope: Old Scope=InComponentClass('U_OutputStage_3') New Scope=InComponentClass('Bridge_3')
+Added Room: Name=Bridge_1
+Added Room: Name=Bridge_2

@@ -1,0 +1,7 @@
+Added Pin To Net: NetName=GND Pin=DIGITAL1-35
+Added Pin To Net: NetName=GND Pin=DIGITAL1-36
+Added Pin To Net: NetName=GND Pin=ICSP1-6
+Added Pin To Net: NetName=GND Pin=POWER1-2
+Added Pin To Net: NetName=GND Pin=POWER1-3
+Added Pin To Net: NetName=GND Pin=PWM_H1-7
+Added Member To Class: ClassName=Overview Member=Component P6 WRTBL_5P_508

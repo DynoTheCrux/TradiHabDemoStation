@@ -1,0 +1,680 @@
+////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////
+//////          CODE ORIGINAL from -- Matthias Decker --                               //////
+//////                                                                                 //////
+//////            CODE MODIFIED by Victor Mejias Sanz                                  ////// 
+//////                                                                                //////  
+//////              Contact:       victor.mejias.sanz@gmail.com                       ////// 
+//////                                                                                ////// 
+////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+using UnityEngine;
+using UnityEngine.UI;
+using System.Collections;
+using System;
+using System.IO.Ports;
+using System.Threading;
+using System.Text;
+
+
+
+public class L2L_R2R_NormalComunication : MonoBehaviour
+{
+
+    Thread hapticRendering;
+
+    public TriggerIndexScript finger1;
+
+    public TriggerIndexScript finger2;
+
+    static SerialPort serial = new SerialPort("COM3", 57600);
+    //static SerialPort mySerial;    // left hand
+    //static SerialPort mySerial2;  // right hand
+
+
+    public Vector3 rot;
+    public Vector3 rot1;
+    public Vector3 rot2;
+    static public Vector3 rot3;
+    static public Vector3 rot4;
+    public Vector3 startpositionx;
+    public Vector3 startpositiony;
+    public float divisiony = 7;
+    public float divisionz = 7;
+
+    public string valueShare;
+    public string valueShare1;
+    public string valueShare2;
+    public string valueShare3;
+    public string valueShare4;
+    //public string values1;
+    //public string values2;
+    //public string vector;
+    public static int safetyangle = 0;
+
+
+
+    /////////////////--------------------------------TRANSFORMS FOR LEFT HAND//////////////////////////
+
+    public GameObject aFingerPIPIndex1 = GameObject.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/lCollar/lShldrBend/lShldrTwist/lForearmBend/lForearmTwist/lHand/lCarpal1/lIndex1");
+    public GameObject aFingerDIPIndex2 = GameObject.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/lCollar/lShldrBend/lShldrTwist/lForearmBend/lForearmTwist/lHand/lCarpal1/lIndex1/lIndex2");
+    public GameObject aFingerMCPIndex3;
+
+    //---------------------------------------       INDEX       --------------------------------------------
+    //private Transform aFingerIndex2;
+    //private Transform aFingerIndex1;
+    public static Transform aFingerIndex3;  //For Colliding
+    private Transform aFingerPIPIndex;
+    private Transform aFingerDIPIndex;
+    private Transform aFingerMCPIndex;
+    //--------------------------------------        MIDDLE      -----------------------------------------
+    //private Transform aFingerMiddle1;
+    //private Transform aFingerMiddle2;
+    public static Transform aFingerMiddle3; //For Colliding
+    private Transform aFingerPIPMiddle;
+    private Transform aFingerDIPMiddle;
+    private Transform aFingerMCPMiddle;
+    //-------------------------------------------       RING        -------------------------------------
+    //private Transform aFingerRing1;
+    //private Transform aFingerRing2;
+    public static Transform aFingerRing3;   //For Colliding
+    private Transform aFingerPIPRing;
+    private Transform aFingerDIPRing;
+    private Transform aFingerMCPRing;
+    //-------------------------------------------       PINKY        -------------------------------------
+    //private Transform aFingerPinky2;
+    //private Transform aFingerPinky1;
+    public static Transform aFingerPinky3;  //For Colliding
+    private Transform aFingerPIPPinky;
+    private Transform aFingerDIPPinky;
+    private Transform aFingerMCPPinky;
+    //---------------------------------------------     THUMB       -------------------------------------
+    private Transform aFingerThumbBase;
+    private Transform aFingerMCPThumb;
+    public static Transform aFingerThumbTip;    //For Colliding
+    private Transform aFingerCMCThumb;
+    private Transform aFingerThumbJoint;
+    //---------------------------------------------     PALM       -------------------------------------
+    //public static Transform aHand;
+    //public static Transform aPalm;
+
+    
+        
+    /////////////////--------------------------------TRANSFORMS FOR RIGHT HAND//////////////////////////
+
+    ////---------------------------------------       INDEX       --------------------------------------------
+    ////private Transform RaFingerIndex2;
+    ////private Transform RaFingerIndex1;
+    //public static Transform RaFingerIndex3;  //For Colliding
+    //private Transform RaFingerPIPIndex;
+    //private Transform RaFingerDIPIndex;
+    //private Transform RaFingerMCPIndex;
+    ////--------------------------------------        MIDDLE      -----------------------------------------
+    ////private Transform RaFingerMiddle1;
+    ////private Transform RaFingerMiddle2;
+    //public static Transform RaFingerMiddle3;    //For Colliding
+    //private Transform RaFingerPIPMiddle;
+    //private Transform RaFingerDIPMiddle;
+    //private Transform RaFingerMCPMiddle;
+    ////-------------------------------------------       RING        -------------------------------------
+    ////private Transform RaFingerRing1;
+    ////private Transform RaFingerRing2;
+    //public static Transform RaFingerRing3;      //For Colliding
+    //private Transform RaFingerPIPRing;
+    //private Transform RaFingerDIPRing;
+    //private Transform RaFingerMCPRing;
+    ////-------------------------------------------       PINKY        -------------------------------------
+    ////private Transform RaFingerPinky2;
+    ////private Transform RaFingerPinky1;
+    //public static Transform RaFingerPinky3;     //For Colliding
+    //private Transform RaFingerPIPPinky;
+    //private Transform RaFingerDIPPinky;
+    //private Transform RaFingerMCPPinky;
+    ////---------------------------------------------     THUMB       -------------------------------------
+    //private Transform RaFingerThumbBase;
+    //private Transform RaFingerMCPThumb;
+    //public static Transform RaFingerThumbTip;   //For Colliding
+    //private Transform RaFingerCMCThumb;
+    //private Transform RaFingerThumbJoint;
+
+    ////public static Transform RaHand;
+    ////public static Transform RaPalm;
+
+
+
+
+    //=========================================       COMMUNICATION VARIABLES ============================
+    //static public byte[] SEND = new byte[10];
+
+
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    /////
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    // VIBRATION VARIABLES for HAPTIC SENSORS!
+    static public byte vibintensityIndex;
+    static public byte vibintensityMiddle;
+    static public byte vibintensityRing;
+    static public byte vibintensityPinky;
+    static public byte vibintensityThumb;
+
+    // INTENSITY FOR THE VIBRATION of HAPTIC SENSORS!
+    static public float forceintensityIndex;
+    static public float forceintensityMiddle;
+    static public float forceintensityRing;
+    static public float forceintensityPinky;
+    static public float forceintensityThumb;
+
+    static public float forceintensityHand;
+    static public float forceintensityHandy;
+
+    // COLLIDERS NAMES VARIABLES for HAPTIC SENSORS! NOT USED
+    //static public string name1;
+    //static public string name2;
+    //static public string name3;
+    //static public string name4;
+    //static public string name5;
+
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    /////
+    ////////////////////////////////////////////////////////////////////////////////////////////
+
+    // TORQUE FOR THE COUNTER-FORCE IN FINGER MOTORS!
+    static public float TorqueIndex;
+    static public float TorqueMiddle;
+    static public float TorqueRing;
+    static public float TorquePinky;
+    static public float TorqueThumb;
+    static public float TorqueHand;
+    static public float TorqueHandy;
+    static public float VelocityHand;
+    static public int HandDir;
+
+    static public float zetaIndex;
+    static public float zetaMiddle;
+    static public float zetaRing;
+    static public float zetaPinky;
+    static public float zetaThumb;
+    static public float kappaIndex;
+    static public float lambdaIndex;
+    static public float kappaMiddle;
+    static public float lambdaMiddle;
+    static public float kappaRing;
+    static public float lambdaRing;
+    static public float kappaPinky;
+    static public float lambdaPinky;
+    static public float kappaThumb;
+    static public float lambdaThumb;
+    static public float D;
+    static public float D1;
+    static public int hohe;
+
+
+
+
+    static public int intensityTEST;
+    static public float TESTOUT9;
+    public static string SENDSTRING;
+    private bool check;
+    static public float IMUint1 = 0;
+    static public float IMUint2 = 0;
+    static public float IMUint3 = 0;
+    static public float VirtualStiffness = 0.01F; // Stiffness in N/mm
+    public static float df;
+    public static float encoderfactor;
+    int direction;
+    float Gripassist;
+    public static int add1;
+    public static int add2;
+    public static int add3;
+    public static bool openassist;
+    public static bool closeassist;
+    bool rising;
+    static float penaltydistanceIndex;
+    static float penaltydistanceMiddle;
+    static float penaltydistanceRing;
+    static float penaltydistancePinky;
+    static float penaltydistanceThumb;
+    static float penaltydistanceHand;
+    static public float previousposition;
+    public float starttime;
+    public Text timertext;
+
+
+    void Start()
+    {
+        starttime = Time.time;
+        rising = true;
+        openassist = false;
+        closeassist = false;
+        Gripassist = 0;
+        serial.Open();
+
+
+
+
+
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        /////
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////---------------INITIALIZATION FOR SIMULATION WITH LEFT HAND----------- COMMENT IN OR OUT ONLY ONCE
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        /////
+
+        
+
+        aFingerIndex3 = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/lCollar/lShldrBend/lShldrTwist/lForearmBend/lForearmTwist/lHand/lCarpal1/lIndex1/lIndex2/lIndex3");
+        aFingerPIPIndex = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/lCollar/lShldrBend/lShldrTwist/lForearmBend/lForearmTwist/lHand/lCarpal1/lIndex1/lIndex2");
+        aFingerDIPIndex = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/lCollar/lShldrBend/lShldrTwist/lForearmBend/lForearmTwist/lHand/lCarpal1/lIndex1/lIndex2/lIndex3");
+        aFingerMCPIndex = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/lCollar/lShldrBend/lShldrTwist/lForearmBend/lForearmTwist/lHand/lCarpal1/lIndex1");
+
+        aFingerMiddle3 = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/lCollar/lShldrBend/lShldrTwist/lForearmBend/lForearmTwist/lHand/lCarpal2/lMid1/lMid2/lMid3");
+        aFingerPIPMiddle = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/lCollar/lShldrBend/lShldrTwist/lForearmBend/lForearmTwist/lHand/lCarpal2/lMid1/lMid2");
+        aFingerDIPMiddle = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/lCollar/lShldrBend/lShldrTwist/lForearmBend/lForearmTwist/lHand/lCarpal2/lMid1/lMid2/lMid3");
+        aFingerMCPMiddle = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/lCollar/lShldrBend/lShldrTwist/lForearmBend/lForearmTwist/lHand/lCarpal2/lMid1");
+
+
+        aFingerRing3 = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/lCollar/lShldrBend/lShldrTwist/lForearmBend/lForearmTwist/lHand/lCarpal3/lRing1/lRing2/lRing3");
+        aFingerPIPRing = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/lCollar/lShldrBend/lShldrTwist/lForearmBend/lForearmTwist/lHand/lCarpal3/lRing1/lRing2");
+        aFingerDIPRing = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/lCollar/lShldrBend/lShldrTwist/lForearmBend/lForearmTwist/lHand/lCarpal3/lRing1/lRing2/lRing3");
+        aFingerMCPRing = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/lCollar/lShldrBend/lShldrTwist/lForearmBend/lForearmTwist/lHand/lCarpal3/lRing1");
+
+        aFingerPinky3 = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/lCollar/lShldrBend/lShldrTwist/lForearmBend/lForearmTwist/lHand/lCarpal4/lPinky1/lPinky2/lPinky3");
+        aFingerPIPPinky = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/lCollar/lShldrBend/lShldrTwist/lForearmBend/lForearmTwist/lHand/lCarpal4/lPinky1/lPinky2");
+        aFingerDIPPinky = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/lCollar/lShldrBend/lShldrTwist/lForearmBend/lForearmTwist/lHand/lCarpal4/lPinky1/lPinky2/lPinky3");
+        aFingerMCPPinky = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/lCollar/lShldrBend/lShldrTwist/lForearmBend/lForearmTwist/lHand/lCarpal4/lPinky1");
+
+        aFingerMCPThumb = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/lCollar/lShldrBend/lShldrTwist/lForearmBend/lForearmTwist/lHand/lThumb1/lThumb2/lThumb3");
+        aFingerThumbTip = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/lCollar/lShldrBend/lShldrTwist/lForearmBend/lForearmTwist/lHand/lThumb1/lThumb2/lThumb3");
+        aFingerCMCThumb = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/lCollar/lShldrBend/lShldrTwist/lForearmBend/lForearmTwist/lHand/lThumb1/lThumb2");
+        // aFingerThumbJoint = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/lCollar/lShldrBend/lShldrTwist/lForearmBend/lForearmTwist/lHand/Thumb1/Thumb3");
+
+        //// Find game object transformations Hand PALM:
+        //aPalm = transform.Find("M3Dmale");
+        //aPalm = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/lCollar/lShldrBend/lShldrTwist/lForearmBend/lForearmTwist/lHand");
+        //aHand = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/lCollar/lShldrBend/lShldrTwist/lForearmBend/lForearmTwist/lHand");
+
+        //------------FINISH INITIALIZATION LEFT HAND SIMULATION ------------
+
+
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ///////
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////---------------INITIALIZATION FOR SIMULATION WITH RIGHT HAND----------- COMMENT IN OR OUT ONLY ONCE
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ///////
+
+        //RaFingerIndex3 = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/rCollar/rShldrBend/rShldrTwist/rForearmBend/rForearmTwist/rHand/rCarpal1/rIndex1/rIndex2/rIndex3");
+        //RaFingerPIPIndex = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/rCollar/rShldrBend/rShldrTwist/rForearmBend/rForearmTwist/rHand/rCarpal1/rIndex1/rIndex2");
+        //RaFingerDIPIndex = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/rCollar/rShldrBend/rShldrTwist/rForearmBend/rForearmTwist/rHand/rCarpal1/rIndex1/rIndex2/rIndex3");
+        //RaFingerMCPIndex = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/rCollar/rShldrBend/rShldrTwist/rForearmBend/rForearmTwist/rHand/rCarpal1/rIndex1");
+
+        //RaFingerMiddle3 = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/rCollar/rShldrBend/rShldrTwist/rForearmBend/rForearmTwist/rHand/rCarpal2/rMid1/rMid2/rMid3");
+        //RaFingerPIPMiddle = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/rCollar/rShldrBend/rShldrTwist/rForearmBend/rForearmTwist/rHand/rCarpal2/rMid1/rMid2");
+        //RaFingerDIPMiddle = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/rCollar/rShldrBend/rShldrTwist/rForearmBend/rForearmTwist/rHand/rCarpal2/rMid1/rMid2/rMid3");
+        //RaFingerMCPMiddle = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/rCollar/rShldrBend/rShldrTwist/rForearmBend/rForearmTwist/rHand/rCarpal2/rMid1");
+
+        //RaFingerRing3 = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/rCollar/rShldrBend/rShldrTwist/rForearmBend/rForearmTwist/rHand/rCarpal3/rRing1/rRing2/rRing3");
+        //RaFingerPIPRing = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/rCollar/rShldrBend/rShldrTwist/rForearmBend/rForearmTwist/rHand/rCarpal3/rRing1/rRing2");
+        //RaFingerDIPRing = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/rCollar/rShldrBend/rShldrTwist/rForearmBend/rForearmTwist/rHand/rCarpal3/rRing1/rRing2/rRing3");
+        //RaFingerMCPRing = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/rCollar/rShldrBend/rShldrTwist/rForearmBend/rForearmTwist/rHand/rCarpal3/rRing1");
+
+        //RaFingerPinky3 = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/rCollar/rShldrBend/rShldrTwist/rForearmBend/rForearmTwist/rHand/rCarpal4/rPinky1/rPinky2/rPinky3");
+        //RaFingerPIPPinky = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/rCollar/rShldrBend/rShldrTwist/rForearmBend/rForearmTwist/rHand/rCarpal4/rPinky1/rPinky2");
+        //RaFingerDIPPinky = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/rCollar/rShldrBend/rShldrTwist/rForearmBend/rForearmTwist/rHand/rCarpal4/rPinky1/rPinky2/rPinky3");
+        //RaFingerMCPPinky = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/rCollar/rShldrBend/rShldrTwist/rForearmBend/rForearmTwist/rHand/rCarpal4/rPinky1");
+
+        //RaFingerMCPThumb = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/rCollar/rShldrBend/rShldrTwist/rForearmBend/rForearmTwist/rHand/rThumb1/rThumb2/rThumb3");
+        //RaFingerThumbTip = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/rCollar/rShldrBend/rShldrTwist/rForearmBend/rForearmTwist/rHand/rThumb1/rThumb2/rThumb3");
+        //RaFingerCMCThumb = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/rCollar/rShldrBend/rShldrTwist/rForearmBend/rForearmTwist/rHand/rThumb1/rThumb2");
+
+
+        //////  lThumb1 = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/lCollar/lShldrBend/lShldrTwist/lForearmBend/lForearmTwist/lHand/lThumb1/lThumb1");
+        ////// lThumb2 = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/lCollar/lShldrBend/lShldrTwist/lForearmBend/lForearmTwist/lHand/lThumb1/lThumb2");
+        //////  lThumb3 = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/lCollar/lShldrBend/lShldrTwist/lForearmBend/lForearmTwist/lHand/lThumb1/lThumb2");
+
+
+
+
+        ////// Find game object transformations Hand PALM:
+        ////RaPalm = transform.Find("M3Dmale");
+        ////RaPalm = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/rCollar/rShldrBend/rShldrTwist/rForearmBend/rForearmTwist/rHand");
+
+        ////RaHand = transform.Find("M3DMale/hip/abdomenLower/abdomenUpper/chestLower/chestUpper/rCollar/rShldrBend/rShldrTwist/rForearmBend/rForearmTwist/rHand");
+
+        //////------------FINISH INITIALIZATION RIGHT HAND ------------
+
+
+
+        add1 = 0;
+        add2 = 0;
+        add3 = 0;
+
+        // Division factor for angular resolution of bend sensors
+        df = 2.2F;
+        encoderfactor = 0.02F;
+
+    }
+
+    void Update()
+    {
+
+
+        // --------------------------------------------------------------READ IN VALUES FROM ARDUINO -------------------------        
+        string value = serial.ReadLine(); // read information
+        //valueShare = value;
+        string[] vector = value.Split('#'); // part value, seperated by "#"
+        string vector1 = vector[0];
+        string vector2 = vector[1];
+        string[] values1 = vector1.Split('~'); // seperation by ~
+        string[] values2 = vector2.Split('~');
+
+
+        //----------------------------------------      TRANSFORM STRING TO VECTOR3         -------------------------       
+        rot = new Vector3(float.Parse(values1[0]), float.Parse(values1[1]), float.Parse(values1[2])) / df;
+        rot1 = new Vector3(float.Parse(values1[3]), float.Parse(values1[4]), float.Parse(values1[5])) / df;
+        rot2 = new Vector3(float.Parse(values2[0]), float.Parse(values2[1]), float.Parse(values2[2])) / df;
+        rot4 = new Vector3(float.Parse(values2[3]), float.Parse(values2[4]), float.Parse(values2[5]));
+        valueShare = string.Format("{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11}", float.Parse(values1[0]) / df, float.Parse(values1[1]) / df, float.Parse(values1[2]) / df, float.Parse(values1[3]) / df, float.Parse(values1[4]) / df, float.Parse(values1[5]) / df, float.Parse(values2[0]) / df, float.Parse(values2[1]) / df, float.Parse(values2[2]) / df, float.Parse(values2[3]) * encoderfactor, float.Parse(values2[4]) * encoderfactor, float.Parse(values2[5]));
+
+
+        // fixed values for IMU
+        rot3 = new Vector3(90, 0, 6);
+        startpositionx = new Vector3(-230, -1195, -1100);
+        startpositiony = new Vector3(0, 0, 0);
+
+        // last vector contains YAW(y) PITCH(x) ROLL(z) for UNITY Palm
+        TESTOUT9 = rot.z;
+
+
+
+        //====================================================================================================
+        //---------------------------------         LEFT HAND   LEFT HAND    LEFT HAND  --------------------------------------------
+
+        ////-----------------------------------------     TRANSFORM PALM ORIENTATION      ----------------------------------------
+
+        //transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(rot3.y, rot3.x, rot3.z), Time.deltaTime * 5);
+        //{ transform.position = startpositionx + new Vector3(rot4.x, hohe, rot4.y); } //Encodervalues for positioning
+        //                                                                             //  { transform.rotation = new Vector3(rot3.y, rot3.x, rot3.z); }
+        //                                                                             //{ transform.position = startpositiony + new Vector3(0, 0, -rot4.y); }
+        aFingerDIPIndex2.GetComponent<bending>().moveSpeed
+
+
+        //---------------------------------         TRANSFORM FINGERS ROTATION AND POSITION     ------------------------------------
+        //---------------------------THUMB      ------------------------------------------------------------------------------------
+
+        aFingerCMCThumb.rotation = Quaternion.Slerp(aFingerCMCThumb.rotation, Quaternion.Euler(rot3.y + 40 - (rot3.z * 7 / 10) - 60, (rot3.x + (rot3.z * 3 / 10) + 45) - 50, rot3.z) * Quaternion.Euler(0, -rot.z, 0), Time.deltaTime * 5);
+        aFingerMCPThumb.rotation = Quaternion.Slerp(aFingerMCPThumb.rotation, Quaternion.Euler(rot3.y + 40 - (rot3.z * 7 / 10) - 60, (rot3.x + (rot3.z * 3 / 10) + 45) - 50, rot3.z) * Quaternion.Euler(0, -rot.z * 2, 0), Time.deltaTime * 5);
+
+        //-------------------------INDEX        -----------------------------------------------------------------------------------------
+        aFingerMCPIndex.rotation = Quaternion.Slerp(aFingerMCPIndex.rotation, Quaternion.Euler(rot3.y, rot3.x, rot3.z) * Quaternion.Euler(0, 0, rot.x), Time.deltaTime * 5);
+        aFingerPIPIndex.rotation = Quaternion.Slerp(aFingerPIPIndex.rotation, Quaternion.Euler(rot3.y, rot3.x, rot3.z) * Quaternion.Euler(0, 0, (rot.x + rot.y)), Time.deltaTime * 5);
+        aFingerDIPIndex.rotation = Quaternion.Slerp(aFingerDIPIndex.rotation, Quaternion.Euler(rot3.y, rot3.x, rot3.z) * Quaternion.Euler(0, 0, (rot.x + ((3 * rot.y / 2)))), Time.deltaTime * 5);
+
+        //----------------      MIDDLE      -------------------------------------------------------------------------------------------------
+
+        aFingerMCPMiddle.rotation = Quaternion.Slerp(aFingerMCPMiddle.rotation, Quaternion.Euler(rot3.y, rot3.x, rot3.z) * Quaternion.Euler(0, 0, rot.x * 8 / 10), Time.deltaTime * 5);
+        aFingerPIPMiddle.rotation = Quaternion.Slerp(aFingerPIPMiddle.rotation, Quaternion.Euler(rot3.y, rot3.x, rot3.z) * Quaternion.Euler(0, 0, (rot1.y + rot1.x)), Time.deltaTime * 5);
+        aFingerDIPMiddle.rotation = Quaternion.Slerp(aFingerDIPMiddle.rotation, Quaternion.Euler(rot3.y, rot3.x, rot3.z) * Quaternion.Euler(0, 0, (rot1.y + ((3 * rot1.x / 2)))), Time.deltaTime * 5);
+
+        //---------------------------------------       RING        -------------------------------------------------------------------
+        aFingerMCPRing.rotation = Quaternion.Slerp(aFingerMCPRing.rotation, Quaternion.Euler(rot3.y, rot3.x - 2, rot3.z) * Quaternion.Euler(0, 0, rot1.z), Time.deltaTime * 5);
+        aFingerPIPRing.rotation = Quaternion.Slerp(aFingerPIPRing.rotation, Quaternion.Euler(rot3.y, rot3.x - 2, rot3.z) * Quaternion.Euler(0, 0, (rot1.z + rot2.x)), Time.deltaTime * 5);
+        aFingerDIPRing.rotation = Quaternion.Slerp(aFingerDIPRing.rotation, Quaternion.Euler(rot3.y, rot3.x - 2, rot3.z) * Quaternion.Euler(0, 0, (rot1.z + ((3 * rot2.x / 2)))), Time.deltaTime * 5);
+
+        //----------------------------------------      PINKY       ---------------------------------------------   
+        aFingerMCPPinky.rotation = Quaternion.Slerp(aFingerMCPPinky.rotation, Quaternion.Euler(rot3.y, rot3.x - 4, rot3.z) * Quaternion.Euler(0, 0, rot2.y), Time.deltaTime * 5);
+        aFingerPIPPinky.rotation = Quaternion.Slerp(aFingerPIPPinky.rotation, Quaternion.Euler(rot3.y, rot3.x - 4, rot3.z) * Quaternion.Euler(0, 0, (rot2.y * 2 + rot2.z)), Time.deltaTime * 5);
+        aFingerDIPPinky.rotation = Quaternion.Slerp(aFingerDIPPinky.rotation, Quaternion.Euler(rot3.y, rot3.x - 4, rot3.z) * Quaternion.Euler(0, 0, (rot2.y * 2 + ((3 * rot2.z / 2)))), Time.deltaTime * 5);
+
+
+
+        ////====================================================================================================
+        ////---------------------------------         RIGT HAND   RIGHT HAND    RIGHT HAND  --------------------------------------------
+
+        //////-----------------------------------------     TRANSFORM PALM ORIENTATION      ----------------------------------------
+
+        ////transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(rot3.y, rot3.x, rot3.z), Time.deltaTime * 5);
+        ////{ transform.position = startpositionx + new Vector3(rot4.x, hohe, rot4.y); } //Encodervalues for positioning
+        ////                                                                             //  { transform.rotation = new Vector3(rot3.y, rot3.x, rot3.z); }
+        ////                                                                             //{ transform.position = startpositiony + new Vector3(0, 0, -rot4.y); }
+
+
+        ////---------------------------------         TRANSFORM FINGERS ROTATION AND POSITION     ------------------------------------
+
+        ////-------------------------INDEX        -----------------------------------------------------------------------------------------
+        //RaFingerMCPIndex.rotation = Quaternion.Slerp(aFingerMCPIndex.rotation, Quaternion.Euler(rot3.y, rot3.x, rot3.z) * Quaternion.Euler(0, 0, -rot.x), Time.deltaTime * 5);
+        //RaFingerPIPIndex.rotation = Quaternion.Slerp(aFingerPIPIndex.rotation, Quaternion.Euler(rot3.y, rot3.x, rot3.z) * Quaternion.Euler(0, 0, -(rot.x + rot.y)), Time.deltaTime * 5);
+        //RaFingerDIPIndex.rotation = Quaternion.Slerp(aFingerDIPIndex.rotation, Quaternion.Euler(rot3.y, rot3.x, rot3.z) * Quaternion.Euler(0, 0, -(rot.x + ((3 * rot.y / 2)))), Time.deltaTime * 5);
+
+        ////----------------      MIDDLE      -------------------------------------------------------------------------------------------------
+
+        //RaFingerMCPMiddle.rotation = Quaternion.Slerp(aFingerMCPMiddle.rotation, Quaternion.Euler(rot3.y, rot3.x, rot3.z) * Quaternion.Euler(0, 0, -rot.x * 8 / 10), Time.deltaTime * 5);
+        //RaFingerPIPMiddle.rotation = Quaternion.Slerp(aFingerPIPMiddle.rotation, Quaternion.Euler(rot3.y, rot3.x, rot3.z) * Quaternion.Euler(0, 0, -(rot1.y + rot1.x)), Time.deltaTime * 5);
+        //RaFingerDIPMiddle.rotation = Quaternion.Slerp(aFingerDIPMiddle.rotation, Quaternion.Euler(rot3.y, rot3.x, rot3.z) * Quaternion.Euler(0, 0, -(rot1.y + ((3 * rot1.x / 2)))), Time.deltaTime * 5);
+
+        ////---------------------------------------       RING        -------------------------------------------------------------------
+        //RaFingerMCPRing.rotation = Quaternion.Slerp(aFingerMCPRing.rotation, Quaternion.Euler(rot3.y, rot3.x - 2, rot3.z) * Quaternion.Euler(0, 0, -rot1.z), Time.deltaTime * 5);
+        //RaFingerPIPRing.rotation = Quaternion.Slerp(aFingerPIPRing.rotation, Quaternion.Euler(rot3.y, rot3.x - 2, rot3.z) * Quaternion.Euler(0, 0, -(rot1.z + rot2.x)), Time.deltaTime * 5);
+        //RaFingerDIPRing.rotation = Quaternion.Slerp(aFingerDIPRing.rotation, Quaternion.Euler(rot3.y, rot3.x - 2, rot3.z) * Quaternion.Euler(0, 0, -(rot1.z + ((3 * rot2.x / 2)))), Time.deltaTime * 5);
+
+        ////----------------------------------------      PINKY       ---------------------------------------------   
+        //RaFingerMCPPinky.rotation = Quaternion.Slerp(aFingerMCPPinky.rotation, Quaternion.Euler(rot3.y, rot3.x - 4, rot3.z) * Quaternion.Euler(0, 0, -rot2.y), Time.deltaTime * 5);
+        //RaFingerPIPPinky.rotation = Quaternion.Slerp(aFingerPIPPinky.rotation, Quaternion.Euler(rot3.y, rot3.x - 4, rot3.z) * Quaternion.Euler(0, 0, -(rot2.y * 2 + rot2.z)), Time.deltaTime * 5);
+        //RaFingerDIPPinky.rotation = Quaternion.Slerp(aFingerDIPPinky.rotation, Quaternion.Euler(rot3.y, rot3.x - 4, rot3.z) * Quaternion.Euler(0, 0, -(rot2.y * 2 + ((3 * rot2.z / 2)))), Time.deltaTime * 5);
+
+        ////---------------------------THUMB      ------------------------------------------------------------------------------------
+        //RaFingerCMCThumb.rotation = Quaternion.Slerp(aFingerCMCThumb.rotation, Quaternion.Euler(rot3.y + 40 - (rot3.z * 7 / 10) - 60, (rot3.x + (rot3.z * 3 / 10) + 45) - 50, rot3.z) * Quaternion.Euler(0, -rot.z, 0), Time.deltaTime * 5);
+        //RaFingerMCPThumb.rotation = Quaternion.Slerp(aFingerMCPThumb.rotation, Quaternion.Euler(rot3.y + 40 - (rot3.z * 7 / 10) - 60, (rot3.x + (rot3.z * 3 / 10) + 45) - 50, rot3.z) * Quaternion.Euler(0, -rot.z * 2, 0), Time.deltaTime * 5);
+
+
+        serial.BaseStream.Flush();
+
+
+
+
+        //---------------------------------------------------------------------------------------------------------------------------
+        //----------------------------    PENALTY FUNCTIONS  ------------------------------------------------------------------------
+        //===========================================================================================================================
+
+        // Forceintensity are the values which calculate from virtual Stiffness * penaltyDistance => Force in [N]. These values will now be adapted 
+        // according to the Torque correction Function and mapped to PWM voltages from 0...255.
+        if (forceintensityThumb >= 14) { forceintensityThumb = 14; }    // Forceintensity is now still in Newton, but limited to 25
+        if (forceintensityIndex >= 10) { forceintensityIndex = 10; }
+        if (forceintensityMiddle >= 9) { forceintensityMiddle = 9; } // Forceintensity is the NORMAL grasping force
+        if (forceintensityRing >= 9) { forceintensityRing = 9; }
+        if (forceintensityPinky >= 8) { forceintensityPinky = 8; }
+
+
+        //===============================================================================================================================
+        //This is for Penetration Distance
+
+        penaltydistanceIndex = TriggerIndexScript.PenaltyDistanceIndex;
+        penaltydistanceMiddle = TriggerMiddleScript.PenaltyDistanceMiddle;
+        penaltydistanceRing = TriggerRingScript.PenaltyDistanceRing;
+        penaltydistancePinky = TriggerPinkyScript.PenaltyDistancePinky;
+        penaltydistanceThumb = TriggerThumb.PenaltyDistance;
+        //penaltydistanceHand = TriggerHandScript.PenaltyDistanceHand;
+
+        //---------------------------------------------------------------------------------------------------------------------------
+        //----------------------------   FINGER MOTORS  ------------------------------------------------------------------------
+        //===========================================================================================================================
+
+        //================================================================================================================================
+        //                                                  ZETA
+        zetaIndex = Mathf.Sin((57 + ((13 * rot.x) / 10) + ((55 * rot.y) / 100)) * Mathf.PI / 180);
+        zetaMiddle = Mathf.Sin((57 + ((13 * rot1.y) / 10) + ((55 * rot1.x) / 100)) * Mathf.PI / 180);
+        zetaRing = Mathf.Sin((57 + ((13 * rot1.z) / 10) + ((55 * rot2.x) / 100)) * Mathf.PI / 180);
+        zetaPinky = Mathf.Sin((57 + ((13 * rot2.y) / 10) + ((55 * rot2.z) / 100)) * Mathf.PI / 180);
+        zetaThumb = Mathf.Sin((-(85 / 10000) * (rot.z * rot.z) + (64 / 100) * rot.z + 95) * Mathf.PI / 180);
+        //=================================================================================================================================
+        //                          kappa in rad
+        kappaIndex = (118 - (4 * rot.x / 10) - (88 * rot.y / 100)) * Mathf.PI / 180;
+        kappaMiddle = (118 - (4 * rot1.y / 10) - (88 * rot1.x / 100)) * Mathf.PI / 180;
+        kappaRing = (118 - (4 * rot1.z / 10) - (88 * rot2.x / 100)) * Mathf.PI / 180;
+        kappaPinky = (118 - (4 * rot2.y / 10) - (88 * rot2.z / 100)) * Mathf.PI / 180;
+        kappaThumb = ((28 / 10000) * (rot.z * rot.z) - (83 / 100) * rot.z + 113) * Mathf.PI / 180;
+
+        //===================================================================================================================================
+        //                          lambda in rad
+        lambdaIndex = (72 - (575 * rot.y / 1000)) * Mathf.PI / 180;
+        lambdaMiddle = (72 - (575 * rot1.x / 1000)) * Mathf.PI / 180;
+        lambdaRing = (72 - (575 * rot2.x / 1000)) * Mathf.PI / 180;
+        lambdaPinky = (72 - (575 * rot2.z / 1000)) * Mathf.PI / 180;
+        lambdaThumb = ((-64 / 100) * rot.z + 64) * Mathf.PI / 180;
+
+        //===================================================================================================================================
+        D = 60; // mechanism distances
+        D1 = 45;
+
+        // Force Intensity in N, D in mm, zeta [] Division durch 10,4 due to ratio.   MOTORTORQUEs
+        TorqueIndex = forceintensityIndex * D * zetaIndex / (104 / 10) * ((Mathf.Sin(lambdaIndex)) / (Mathf.Sin(kappaIndex)));
+        TorqueMiddle = forceintensityMiddle * D * zetaMiddle / (104 / 10) * ((Mathf.Sin(lambdaMiddle)) / (Mathf.Sin(kappaMiddle)));
+        TorqueRing = forceintensityRing * D * zetaRing / (104 / 10) * ((Mathf.Sin(lambdaRing)) / (Mathf.Sin(kappaRing)));
+        TorquePinky = forceintensityPinky * D * zetaPinky / (104 / 10) * ((Mathf.Sin(lambdaPinky)) / (Mathf.Sin(kappaPinky)));
+        TorqueThumb = forceintensityThumb * D1 * zetaThumb / (90 / 10) * ((Mathf.Sin(lambdaThumb)) / (Mathf.Sin(kappaThumb)));
+        TorqueHand = forceintensityHand;
+        TorqueHandy = forceintensityHandy;
+
+
+        if (TorqueThumb >= 50) { TorqueThumb = 50; }    // Forceintensity is now still in Newton, but limited to 255
+        if (TorqueIndex >= 50) { TorqueIndex = 50; }
+        if (TorqueMiddle >= 50) { TorqueMiddle = 50; }  // Forceintensity is the NORMAL grasping force
+        if (TorqueRing >= 50) { TorqueRing = 50; }
+        if (TorquePinky >= 50) { TorquePinky = 50; }
+        if (TorqueHand >= 50) { TorqueHand = 50; }
+        // limit torque to maximum capability of motor
+        // multiply torques by 5 to get to PWM values
+        TorqueIndex = Mathf.Round(TorqueIndex * 5.1F);
+        TorqueMiddle = Mathf.Round(TorqueMiddle * 5.1F);
+        TorqueRing = Mathf.Round(TorqueRing * 5.1F);
+        TorquePinky = Mathf.Round(TorquePinky * 5.1F); // Safety Limit
+        TorqueThumb = Mathf.Round(TorqueThumb * 5.1F);
+        TorqueHand = Mathf.Round(TorqueHand * 10F);
+        if (TorqueHand <= 10) { TorqueHand = 0; }
+        if (TorqueHand >= 230) { TorqueHand = 0; }
+        TorqueHandy = Mathf.Round(TorqueHandy * 10F);
+        if (TorqueHandy <= 10) { TorqueHandy = 0; }
+        if (TorqueHandy >= 230) { TorqueHandy = 0; }
+
+
+
+        // finally this is now the PWM output
+
+        if (Input.GetKeyDown("o")) { openassist = true; closeassist = false; }
+        if (Gripassist > 150) { Gripassist = 150; }
+        if (Gripassist < 0) { Gripassist = 0; }
+
+
+
+        if (openassist == true)
+        {
+            direction = 0; // haptic feedback and opening
+            string SENDSTRING0 = string.Format("{0},{1},{2},{3},{4},", Gripassist, Gripassist, Gripassist, Gripassist, Gripassist);
+            string SENDSTRING1 = string.Format("{0},{1},{2},{3},{4},{5},", 0, 0, 0, 0, 0, direction);
+            SENDSTRING = string.Concat(SENDSTRING0, SENDSTRING1); // puts the strings together
+            serial.Write(SENDSTRING);
+            valueShare4 = string.Format("{0},{1},{2},{3},{4},", Gripassist * 1.2f, Gripassist, Gripassist, Gripassist, Gripassist);
+            if (rising) { Gripassist += 1; }
+            if (Gripassist == 150) { rising = false; }
+            if (!rising)
+            {
+                Gripassist -= 1;
+                if (Gripassist < 1) { rising = true; }
+            }
+
+            if (Input.GetKeyDown("p")) { openassist = false; Gripassist = 0; }
+        }
+
+
+
+        else if (Input.GetKey("c"))
+        {
+            if (Gripassist > 150) { Gripassist = 150; }
+            direction = 1; // closing
+            string SENDSTRING0 = string.Format("{0},{1},{2},{3},{4},", Gripassist * 1.2F, Gripassist, Gripassist, Gripassist, Gripassist);
+            string SENDSTRING1 = string.Format("{0},{1},{2},{3},{4},{5},", 0, Gripassist, 0, 0, 0, direction);
+            SENDSTRING = string.Concat(SENDSTRING0, SENDSTRING1); // puts the strings together
+            serial.Write(SENDSTRING);
+            Gripassist += 1;
+        }
+
+
+        /*else if (Input.GetKeyDown("up")) { transform.position = transform.position + new Vector3(0, 0, 5); }
+        else if (Input.GetKeyDown("down")) { transform.position = transform.position + new Vector3(0, 0, -5); }
+        else if (Input.GetKeyDown("right")) { transform.position = transform.position + new Vector3(5, 0, 0); }
+        else if (Input.GetKeyDown("left")) { transform.position = transform.position + new Vector3(-5, 0, 0); }*/
+
+        //else if (Input.GetKeyDown("u")) { transform.position = transform.position + new Vector3(0, 5, 0); }
+        //else if (Input.GetKeyDown("d")) { transform.position = transform.position + new Vector3(0, -5, 0); }
+
+        else if (Input.GetKeyDown("u")) { hohe += 5; }
+        else if (Input.GetKeyDown("d")) { hohe -= 5; }
+
+
+        else
+        {
+
+            //-----------------------------------------------------------------------------------------------------------------------------------------
+            //--------------------------SEND STRING TO ARDUINO FOR FEEDBACK-------------------------------------------------------------- -
+            Gripassist = 0;
+            direction = 0;
+            string SENDSTRING0 = string.Format("{0},{1},{2},{3},{4},",/*TorqueThumb, TorqueIndex, TorqueMiddle,*/ TorqueHand, HandDir, TorqueHandy, TorqueRing, TorquePinky);
+            string SENDSTRING1 = string.Format("{0},{1},{2},{3},{4},{5}\n", 0, 0, 0, 0, 0,/* forceintensityThumb, forceintensityIndex, forceintensityMiddle, forceintensityRing, forceintensityPinky,*/ direction);
+            string SENDSTRING2 = string.Format("{0}\n", TorqueHand);
+            SENDSTRING = string.Concat(SENDSTRING0, SENDSTRING1); // puts the strings together
+            serial.Write(SENDSTRING);
+            valueShare1 = SENDSTRING;
+            valueShare2 = string.Format("{0},{1},{2},{3},{4}", TorqueThumb, TorqueIndex, TorqueMiddle, TorqueRing, TorquePinky);
+            valueShare3 = string.Format("{0},{1},{2},{3},{4},{5}", forceintensityThumb, forceintensityIndex, forceintensityMiddle, forceintensityRing, forceintensityPinky, direction);
+        }
+
+
+        ////================================================================================================================
+        //// WRITE TEXTFILE
+        //string path = @"C:/Users/WIS/Desktop/Datalog1.txt";
+        //if (!System.IO.File.Exists(path))
+        //{
+        //    // Create a file to write to.
+        //    string createText = "Start of the Session. Put here the measured Data" + Environment.NewLine + "INPUT ANGLES................ OUTPUT VALUES" + Environment.NewLine;
+        //    System.IO.File.WriteAllText(path, createText);
+        //}
+
+        //// This text is always added, making the file longer over time
+        //// if it is not deleted.
+        //if (ball.recordon == true)
+        //{
+        //    string appendText = ball.trialNR + "," + ball.targetposition + "," + Timer.timetograsp + "," + Timer.timetoreach + "," + Timer.totaltime + Environment.NewLine;
+        //    System.IO.File.AppendAllText(path, appendText);
+        //}
+    }
+    //--------------------------------------------------------------------------------------------------------------
+
+
+
+    //void OnGUI()
+    //{
+
+
+    //    GUI.Label(new Rect(10, 40, 600, 600), "Position:" + (new Vector3(rot4.x, hohe, rot4.y)));
+    //    if (ball.newtrial == false) { GUI.Label(new Rect(10, 60, 600, 600), "false"); }
+    //    if (ball.newtrial == true) { GUI.Label(new Rect(10, 60, 600, 600), "true"); }
+    //    if (TriggerIndexScript.collision == false) { GUI.Label(new Rect(10, 80, 600, 600), "Collision off"); }
+    //    if (TriggerIndexScript.collision == true) { GUI.Label(new Rect(10, 80, 600, 600), "Collision on"); }
+    //    // GUI.Label(new Rect(10, 60, 600, 600), "Velocity:" + VelocityHand);
+    //}
+
+    //-------------------------------------------------------------------------------------------------------------
+
+    //void OnApplicationQuit()
+    //{
+    //    SENDSTRING = string.Format("{0},{1},{2},{3},{4},{5},{6},{7},{8},{9}", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+    //    //SEND[0] = 0;
+    //    serial.Write(SENDSTRING);
+    //    serial.Close();
+
+    //}
+}
+

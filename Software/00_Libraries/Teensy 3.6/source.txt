@@ -1,0 +1,132 @@
+https://forum.pjrc.com/threads/26803-Hardware-Quadrature-Code-for-Teensy-3-x/
+
+FTM modules
+FTM0  |  8  |  3-phase motor + 2 general purpose or stepper motor
+FTM1  |  2  |  Quadrature decoder or general purpose
+FTM2  |  2  |  Quadrature decoder or general purpose --> only channel 0 and 1 available
+FTM3  |  8  |  3-phase motor + 2 general purpose or stepper motor
+
+UNVERIFIED
+ENCXA	 3	PTA12	 28	Input	    FTM1    7
+ENCXB	 4	PTA13	 29	Input	    FTM1    7
+---------------------------------------------
+ENCYA	32	PTB18	 41	Input	    FTM2    6	-->	29
+ENCYB	25	PTB19	 42	Input	    FTM2    6	--> 30
+
+=========================================================================
+=========================================================================
+=========================================================================
+
+Pin definitions for FTM module on Teensy 3.6:
+https://github.com/paulstoffregen/cores/blob/master/teensy3/pins_teensy.c#L669
+
+FTM2 should be pins 29 & 30 --> see Teensy 3.6 schematic
+
+
+=========================================================================
+=========================================================================
+=========================================================================
+
+Outside edge pads (counterclockwise)
+------------------------------------
+
+Pin  ADC  Ser  PWM  SPI     I2C   CAN  Touch  I2S   Eth   Native
+---  ---  ---  ---  ---     ---   ---  -----  ---   ---   ------
+GND
+0         RX1        MOSI1             TOUCH              B16
+1         TX1        MISO1             TOUCH              B17
+2              PWM                                        D0
+3              PWM          SCL2  TX0         txd0  RXD1  A12
+4              PWM          SDA2  RX0         lrclk RXD0  A13
+5         tx1  PWM                                        D7
+6              PWM   CS1                                  D4
+7         RX3  PWM   mosi0  scl0                          D2
+8         TX3  PWM   miso0  sda0                          D3
+9         RX2  PWM   CS0                      BCLK        C3
+10        TX2  PWM   CS0                                  C4
+11                   MOSI0                    MCLK        C6
+12                   MISO0                                C7
+3.3V
+24                                                  CLK   E26
+25                                            bclk  RXER  A5
+26        tx1                                 txd1  RXDV  A14
+27        rx1                                 rxd0  TXEN  A15
+28                                            rxd1  TXD0  A16
+29             PWM                tx0  TOUCH  bclk        B18
+30             PWM                rx0  TOUCH  lrclk       B19
+31   A12  RX4                                             B10
+32   A13  TX4        SCK1                                 B11
+
+33   A14  TX5               scl0  TX1                     E24
+34   A15  RX5               sda0  RX1                     E25
+35   A16       PWM                            mclk        C8
+36   A17       PWM                                        C9
+37   A18       PWM          SCL1                          C10
+38   A19       PWM          SDA1              rxd1        C11
+39   A20                                      mclk  TXD1  A17
+DAC0 A21
+DAC1 A22
+GND
+13                   SCK0                     RXD0        C5
+14   A0        PWM   sck0                                 D1
+15   A1              CS0               TOUCH  txd1        C0
+16   A2                     scl0       TOUCH        MDIO  B0
+17   A3                     sda0       TOUCH        MDC   B1
+18   A4                     SDA0       TOUCH        TIMER B3
+19   A5                     SCL0       TOUCH        TIMER B2
+20   A6        PWM   CS0                                  D5
+21   A7   rx1  PWM   CS0                                  D6
+22   A8        PWM                     TOUCH  TXD0        C1
+23   A9        PWM                     TOUCH  LRCLK       C2
+3.3V
+AGND
+VIN
+
+
+
+Interior pads (same location as Teensy LC & 3.2)
+-------------
+A10
+A11
+AREF
+VUSB
+
+Interior pads (located between pin 27 & 38/A19)
+-------------
+Reset
+Program
+GND
+3.3V
+Vbat
+
+Interior pads (meant for 5 pin header)
+-------------
+VUSBHOST
+Host D-
+Host D+
+GND
+GND
+
+On-board SD card (decicated 4-bit SDIO)
+----------------
+DAT2   (PTE5)
+DAT3   (PTE4)
+CMD    (PTE3)
+3.3V
+CLK    (PTE2)
+GND
+DAT0   (PTE1)
+DAT1   (PTE0)
+
+TBD: extra pads if they fit on bottom side
+------------------------------------------
+40        TX6             sca0
+41        RX6             scl0
+42                        SCL3             lrclk
+43                        SDA3             txd0
+44                  MISO2
+45                  MOSI2
+46                  SCK2
+47                  CS2
+3.3V
+GND

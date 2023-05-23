@@ -1,0 +1,31 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Project [tPad_Yeongmi.PrjPcb]
+   Generated File[tPad_Yeongmi_Copper_Signal_Top.gbr]
+   Generated File[tPad_Yeongmi_Copper_Signal_Bot.gbr]
+   Generated File[tPad_Yeongmi_Pads_Bot.gbr]
+   Generated File[tPad_Yeongmi_Pads_Top.gbr]
+   Generated File[tPad_Yeongmi_Legend_Bot.gbr]
+   Generated File[tPad_Yeongmi_Soldermask_Bot.gbr]
+   Generated File[tPad_Yeongmi_Paste_Bot.gbr]
+   Generated File[tPad_Yeongmi_Legend_Top.gbr]
+   Generated File[tPad_Yeongmi_Paste_Top.gbr]
+   Generated File[tPad_Yeongmi_Soldermask_Top.gbr]
+   Generated File[tPad_Yeongmi_Keep-out.gbr]
+   Generated File[tPad_Yeongmi_Mechanical_13.gbr]
+   Generated File[tPad_Yeongmi_Mechanical_1.gbr]
+   Generated File[tPad_Yeongmi_Mechanical_15.gbr]
+   Generated File[tPad_Yeongmi_Profile.gbr]
+   Generated File[tPad_Yeongmi_NPTH_Drill.gbr]
+   Generated File[tPad_Yeongmi_PTH_Drill.gbr]
+   Generated File[tPad_Yeongmi_Drawing_1.gbr]
+   Generated File[tPad_Yeongmi_Drillmap_1.gbr]
+   Generated File[tPad_Yeongmi.RUL]
+   Generated File[tPad_Yeongmi.EXTREP]
+   Generated File[tPad_Yeongmi.REP]
+
+
+Files Generated   : 22
+Documents Printed : 0
+
+Finished Output Generation At 09:50:20 On 29.08.2019

@@ -1,0 +1,27 @@
+Removed Pin From Net: NetName=PWM5 Pin=IC2_2-23
+Removed Pin From Net: NetName=PWM8 Pin=IC2_3-23
+Removed Pin From Net: NetName=IO27 Pin=P9-1
+Removed Pin From Net: NetName=IO26 Pin=P10-1
+Removed Pin From Net: NetName=IO25 Pin=P11-1
+Removed Pin From Net: NetName=IO22 Pin=P12-1
+Removed Pin From Net: NetName=IO23 Pin=P13-1
+Removed Pin From Net: NetName=IO24 Pin=P14-1
+Removed Pin From Net: NetName=PWM5 Pin=R6_2-2
+Removed Pin From Net: NetName=PWM8 Pin=R6_3-2
+Added Pin To Net: NetName=PWM8 Pin=IC2_2-23
+Added Pin To Net: NetName=PWM5 Pin=IC2_3-23
+Added Pin To Net: NetName=IO22 Pin=P9-1
+Added Pin To Net: NetName=IO23 Pin=P10-1
+Added Pin To Net: NetName=IO24 Pin=P11-1
+Added Pin To Net: NetName=IO25 Pin=P12-1
+Added Pin To Net: NetName=IO26 Pin=P13-1
+Added Pin To Net: NetName=IO27 Pin=P14-1
+Added Pin To Net: NetName=RX2 Pin=P15-1
+Added Pin To Net: NetName=TX2 Pin=P15-2
+Added Pin To Net: NetName=GND Pin=P15-3
+Added Pin To Net: NetName=RX3 Pin=P16-1
+Added Pin To Net: NetName=TX3 Pin=P16-2
+Added Pin To Net: NetName=GND Pin=P16-3
+Added Pin To Net: NetName=PWM8 Pin=R6_2-2
+Added Pin To Net: NetName=PWM5 Pin=R6_3-2
+Change Net Name : Old Net Name=PWM5 New Net Name=PWM3

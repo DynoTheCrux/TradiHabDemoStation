@@ -1,0 +1,37 @@
+Importer Log Report
+Project : MEGA2560_Rev3e.PrjPcb
+
+Section : Analyze Document - C:\Users\SFMOSER\Downloads\MEGA2560_Rev3e-reference\MEGA2560_Rev3e.brd
+    Analyzing data of C:\Users\SFMOSER\Downloads\MEGA2560_Rev3e-reference\MEGA2560_Rev3e.brd
+    Load settings
+    Load layers 163
+    Load Library "SmartPrj"
+    Load Packages 3
+    Load Library "jumper"
+    Load Packages 1
+    Load Library "Diodi"
+    Load Packages 2
+    Load Library "Condensatori"
+    Load Packages 2
+    Load Library "IntegratedCircuits"
+    Load Packages 5
+    Load Library "Resistenze"
+    Load Packages 2
+    Load Library "Cristalli"
+    Load Packages 2
+    Load Library "Induttanze"
+    Load Packages 1
+    Load Library "Connettori"
+    Load Packages 5
+    Load Library "Transistors"
+    Load Packages 1
+    Load Library "Opto"
+    Load Packages 1
+    Load Library "Protezione"
+    Load Packages 3
+    Load Library "Switches"
+    Load Packages 1
+    Load Library "Arduino-utility"
+    Load Packages 1
+    ERROR: Unhandled typemfgpreviewcolors
+EndSection

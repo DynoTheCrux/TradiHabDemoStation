@@ -1,0 +1,27 @@
+Change Physical Footprint: Designator=AD_H1 Old Footprint=Header 8x1 8.5mm New Footprint=Header 8x1 8.5mm
+Change Physical Footprint: Designator=AD_L1 Old Footprint=Header 8x1 8.5mm New Footprint=Header 8x1 8.5mm
+Change Physical Footprint: Designator=COMMS1 Old Footprint=Header 8x1 8.5mm New Footprint=Header 8x1 8.5mm
+Change Physical Footprint: Designator=DIGITAL1 Old Footprint=HEADER 36X 8MM New Footprint=HEADER 36X 8MM
+Change Physical Footprint: Designator=IC1_1 Old Footprint=SOIC127P600X175-8N New Footprint=SOIC127P600X175-8N
+Change Physical Footprint: Designator=IC1_2 Old Footprint=SOIC127P600X175-8N New Footprint=SOIC127P600X175-8N
+Change Physical Footprint: Designator=IC1_3 Old Footprint=SOIC127P600X175-8N New Footprint=SOIC127P600X175-8N
+Change Physical Footprint: Designator=IC2_1 Old Footprint=SOP65P640X120-29N New Footprint=SOP65P640X120-29N
+Change Physical Footprint: Designator=IC2_2 Old Footprint=SOP65P640X120-29N New Footprint=SOP65P640X120-29N
+Change Physical Footprint: Designator=IC2_3 Old Footprint=SOP65P640X120-29N New Footprint=SOP65P640X120-29N
+Change Physical Footprint: Designator=ICSP1 Old Footprint=ICSP New Footprint=ICSP
+Change Physical Footprint: Designator=J1 Old Footprint=614004185023 New Footprint=614004185023
+Change Physical Footprint: Designator=POWER1 Old Footprint=Header 6x1 8.5mm New Footprint=Header 6x1 8.5mm
+Change Physical Footprint: Designator=PWM_H1 Old Footprint=Header 8x1 8.5mm New Footprint=Header 8x1 8.5mm
+Change Physical Footprint: Designator=PWM_L1 Old Footprint=Header 8x1 8.5mm New Footprint=Header 8x1 8.5mm
+Change Physical Footprint: Designator=Q1_1 Old Footprint=INF-PG-TO-263-3-2_A_N New Footprint=INF-PG-TO-263-3-2_A_N
+Change Physical Footprint: Designator=Q1_2 Old Footprint=INF-PG-TO-263-3-2_A_N New Footprint=INF-PG-TO-263-3-2_A_N
+Change Physical Footprint: Designator=Q1_3 Old Footprint=INF-PG-TO-263-3-2_A_N New Footprint=INF-PG-TO-263-3-2_A_N
+Change Physical Footprint: Designator=Q2_1 Old Footprint=INF-PG-TO-263-3-2_A_N New Footprint=INF-PG-TO-263-3-2_A_N
+Change Physical Footprint: Designator=Q2_2 Old Footprint=INF-PG-TO-263-3-2_A_N New Footprint=INF-PG-TO-263-3-2_A_N
+Change Physical Footprint: Designator=Q2_3 Old Footprint=INF-PG-TO-263-3-2_A_N New Footprint=INF-PG-TO-263-3-2_A_N
+Change Physical Footprint: Designator=Q3_1 Old Footprint=INF-PG-TO-263-3-2_A_N New Footprint=INF-PG-TO-263-3-2_A_N
+Change Physical Footprint: Designator=Q3_2 Old Footprint=INF-PG-TO-263-3-2_A_N New Footprint=INF-PG-TO-263-3-2_A_N
+Change Physical Footprint: Designator=Q3_3 Old Footprint=INF-PG-TO-263-3-2_A_N New Footprint=INF-PG-TO-263-3-2_A_N
+Change Physical Footprint: Designator=Q4_1 Old Footprint=INF-PG-TO-263-3-2_A_N New Footprint=INF-PG-TO-263-3-2_A_N
+Change Physical Footprint: Designator=Q4_2 Old Footprint=INF-PG-TO-263-3-2_A_N New Footprint=INF-PG-TO-263-3-2_A_N
+Change Physical Footprint: Designator=Q4_3 Old Footprint=INF-PG-TO-263-3-2_A_N New Footprint=INF-PG-TO-263-3-2_A_N

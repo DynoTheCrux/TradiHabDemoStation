@@ -1,0 +1,165 @@
+Application Platform: WindowsEditor
+Unity Version: 2018.3.3f1
+M3D_DLL.dll version: 1.0.6348.17947
+M3DIMPORT_DLL.dll version: 1.0.6348.17948
+Is Application Playing: False
+
+Gameobjects with M3dCharacterManager: 1
+M3DMale current LOD level: 1
+M3DMale does NOT have an animation controller
+M3DMalecontent pack: Urban Metro T-Shirt
+M3DMalecontent pack: Urban Metro Pants
+M3DMalecontent pack: Brit
+M3DMalecontent pack: Urban Metro Shoes Left
+M3DMalecontent pack: Urban Metro Shoes Right
+M3DMale children:
+	M3DMale active: True
+	M3DMale active: True
+	hip active: True
+	M3DMale_LOD0 active: True SkinnedMeshRender Enabled: True
+		EyeAndLash Morph3D/EyeAndLash
+		Body_LOD0 Morph3D/Volund Variants/Standard Character (Specular, Surface)
+		Head_LOD0 Morph3D/Volund Variants/Standard Character (Specular, Surface)
+	M3DMale_LOD1 active: True SkinnedMeshRender Enabled: False
+		Body_LOD1 Morph3D/Volund Variants/Standard Character (Specular, Surface)
+		EyeAndLash Morph3D/EyeAndLash
+		Head_LOD1 Morph3D/Volund Variants/Standard Character (Specular, Surface)
+	M3DMale_LOD2 active: True SkinnedMeshRender Enabled: False
+		Body_LOD2 Morph3D/Volund Variants/Standard Character (Specular, Surface)
+		EyeAndLash Morph3D/EyeAndLash
+		Head_LOD2 Morph3D/Volund Variants/Standard Character (Specular, Surface)
+	M3DMale_LOD3 active: True SkinnedMeshRender Enabled: False
+		Body_LOD3 Morph3D/Volund Variants/Standard Character (Specular, Surface)
+		EyeAndLash Morph3D/EyeAndLash
+		Head_LOD3 Morph3D/Volund Variants/Standard Character (Specular, Surface)
+	Urban Metro T-Shirt active: True
+	Urban Metro T-Shirt active: True
+	umtee_26938 active: True
+	hip active: True
+	umtee_26938_LOD0 active: True SkinnedMeshRender Enabled: True
+		LOD_0 Morph3D/Standard - Double Sided
+	umtee_26938_LOD1 active: True SkinnedMeshRender Enabled: False
+		LOD_0 Morph3D/Standard - Double Sided
+	umtee_26938_LOD2 active: True SkinnedMeshRender Enabled: False
+		LOD_0 Morph3D/Standard - Double Sided
+	umtee_26938_LOD3 active: True SkinnedMeshRender Enabled: False
+		LOD_0 Morph3D/Standard - Double Sided
+	Urban Metro Pants active: True
+	Urban Metro Pants active: True
+	umpants_23515 active: True
+	hip active: True
+	umpants_23515_LOD0 active: True SkinnedMeshRender Enabled: True
+		LOD_0 Morph3D/Standard - Double Sided
+	umpants_23515_LOD1 active: True SkinnedMeshRender Enabled: False
+		LOD_0 Morph3D/Standard - Double Sided
+	umpants_23515_LOD2 active: True SkinnedMeshRender Enabled: False
+		LOD_0 Morph3D/Standard - Double Sided
+	umpants_23515_LOD3 active: True SkinnedMeshRender Enabled: False
+		LOD_0 Morph3D/Standard - Double Sided
+	Brit active: True
+	Brit active: True
+	M3DMale_LOD0 active: True
+	BritHair active: True
+	BritHair.Shape_LOD0 active: True SkinnedMeshRender Enabled: True
+		BritHairBlack Morph3D/Standard - Double Sided
+	BritHair.Shape_LOD1 active: True SkinnedMeshRender Enabled: False
+		BritHairBlack Morph3D/Standard - Double Sided
+	BritHair.Shape_LOD2 active: True SkinnedMeshRender Enabled: False
+		BritHairBlack Morph3D/Standard - Double Sided
+	BritHair.Shape_LOD3 active: True SkinnedMeshRender Enabled: False
+		BritHairBlack Morph3D/Standard - Double Sided
+	hip active: True
+	Urban Metro Shoes Left active: True
+	Urban Metro Shoes Left active: True
+	M3DMale active: True
+	umshoes_10946_left active: True
+	hip 4 active: True
+	abdomenLower 4 active: True
+	pelvis 4 active: True
+	lThighBend 4 active: True
+	lThighTwist 4 active: True
+	lShin 4 active: True
+	lFoot 4 active: True
+	lHeel 4 active: True
+	lMetatarsals 4 active: True
+	lBigToe 4 active: True
+	lSmallToe1 4 active: True
+	lSmallToe2 4 active: True
+	lSmallToe3 4 active: True
+	lSmallToe4 4 active: True
+	lToe 4 active: True
+	rThighBend 4 active: True
+	rThighTwist 4 active: True
+	rShin 4 active: True
+	rFoot 4 active: True
+	rHeel 4 active: True
+	rMetatarsals 4 active: True
+	rBigToe 4 active: True
+	rSmallToe1 4 active: True
+	rSmallToe2 4 active: True
+	rSmallToe3 4 active: True
+	rSmallToe4 4 active: True
+	rToe 4 active: True
+	umshoes_10946_left_LOD_0 active: True
+	hip active: True
+	umshoes_10946_left_LOD0 active: True SkinnedMeshRender Enabled: True
+		Left_LOD_0 Morph3D/Standard - Double Sided
+	umshoes_10946_left_LOD_1 active: True
+	hip active: True
+	umshoes_10946_left_LOD1 active: True SkinnedMeshRender Enabled: False
+		Left_LOD_0 Morph3D/Standard - Double Sided
+	umshoes_10946_left_LOD_2 active: True
+	hip active: True
+	umshoes_10946_left_LOD2 active: True SkinnedMeshRender Enabled: False
+		Left_LOD_0 Morph3D/Standard - Double Sided
+	umshoes_10946_left_LOD_3 active: True
+	hip active: True
+	umshoes_10946_left_LOD3 active: True SkinnedMeshRender Enabled: False
+		Left_LOD_0 Morph3D/Standard - Double Sided
+	Urban Metro Shoes Right active: True
+	Urban Metro Shoes Right active: True
+	M3DMale active: True
+	umshoes_10946_right active: True
+	hip 4 active: True
+	abdomenLower 4 active: True
+	pelvis 4 active: True
+	lThighBend 4 active: True
+	lThighTwist 4 active: True
+	lShin 4 active: True
+	lFoot 4 active: True
+	lHeel 4 active: True
+	lMetatarsals 4 active: True
+	lBigToe 4 active: True
+	lSmallToe1 4 active: True
+	lSmallToe2 4 active: True
+	lSmallToe3 4 active: True
+	lSmallToe4 4 active: True
+	lToe 4 active: True
+	rThighBend 4 active: True
+	rThighTwist 4 active: True
+	rShin 4 active: True
+	rFoot 4 active: True
+	rHeel 4 active: True
+	rMetatarsals 4 active: True
+	rBigToe 4 active: True
+	rSmallToe1 4 active: True
+	rSmallToe2 4 active: True
+	rSmallToe3 4 active: True
+	rSmallToe4 4 active: True
+	rToe 4 active: True
+	umshoes_10946_right_LOD_0 active: True
+	hip active: True
+	umshoes_10946_right_LOD0 active: True SkinnedMeshRender Enabled: True
+		Right_LOD_0 Morph3D/Standard - Double Sided
+	umshoes_10946_right_LOD_1 active: True
+	hip active: True
+	umshoes_10946_right_LOD1 active: True SkinnedMeshRender Enabled: False
+		Right_LOD_0 Morph3D/Standard - Double Sided
+	umshoes_10946_right_LOD_2 active: True
+	hip active: True
+	umshoes_10946_right_LOD2 active: True SkinnedMeshRender Enabled: False
+		Right_LOD_0 Morph3D/Standard - Double Sided
+	umshoes_10946_right_LOD_3 active: True
+	hip active: True
+	umshoes_10946_right_LOD3 active: True SkinnedMeshRender Enabled: False
+		Right_LOD_0 Morph3D/Standard - Double Sided

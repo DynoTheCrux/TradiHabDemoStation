@@ -1,0 +1,73 @@
+Removed Pin From Net: NetName=GND Pin=DIGITAL1-35
+Removed Pin From Net: NetName=GND Pin=DIGITAL1-36
+Removed Pin From Net: NetName=NetIC2_1_19 Pin=IC2_1-19
+Removed Pin From Net: NetName=NetIC2_1_23 Pin=IC2_1-23
+Removed Pin From Net: NetName=NetIC2_2_19 Pin=IC2_2-19
+Removed Pin From Net: NetName=NetIC2_2_23 Pin=IC2_2-23
+Removed Pin From Net: NetName=NetIC2_3_19 Pin=IC2_3-19
+Removed Pin From Net: NetName=NetIC2_3_23 Pin=IC2_3-23
+Removed Pin From Net: NetName=GND Pin=ICSP1-6
+Removed Pin From Net: NetName=GND Pin=POWER1-2
+Removed Pin From Net: NetName=GND Pin=POWER1-3
+Removed Pin From Net: NetName=GND Pin=PWM_H1-7
+Removed Pin From Net: NetName=NetIC2_1_23 Pin=R6_1-2
+Removed Pin From Net: NetName=NetIC2_2_23 Pin=R6_2-2
+Removed Pin From Net: NetName=NetIC2_3_23 Pin=R6_3-2
+Removed Pin From Net: NetName=NetIC2_1_19 Pin=R13_1-1
+Removed Pin From Net: NetName=NetIC2_2_19 Pin=R13_2-1
+Removed Pin From Net: NetName=NetIC2_3_19 Pin=R13_3-1
+Added Pin To Net: NetName=NetIC2_3_23 Pin=DIGITAL1-35
+Added Pin To Net: NetName=NetIC2_3_23 Pin=DIGITAL1-36
+Added Pin To Net: NetName=PWM10 Pin=IC2_1-19
+Added Pin To Net: NetName=PWM12 Pin=IC2_1-23
+Added Pin To Net: NetName=PWM9 Pin=IC2_2-19
+Added Pin To Net: NetName=PWM5 Pin=IC2_2-23
+Added Pin To Net: NetName=PWM6 Pin=IC2_3-19
+Added Pin To Net: NetName=PWM8 Pin=IC2_3-23
+Added Pin To Net: NetName=NetIC2_3_23 Pin=ICSP1-6
+Added Pin To Net: NetName=IO22 Pin=P?-1
+Added Pin To Net: NetName=IO23 Pin=P?-1
+Added Pin To Net: NetName=IO24 Pin=P?-1
+Added Pin To Net: NetName=IO25 Pin=P?-1
+Added Pin To Net: NetName=IO26 Pin=P?-1
+Added Pin To Net: NetName=IO27 Pin=P?-1
+Added Pin To Net: NetName=SDA Pin=P?-1
+Added Pin To Net: NetName=TX0 Pin=P?-1
+Added Pin To Net: NetName=TX1 Pin=P?-1
+Added Pin To Net: NetName=NetIC2_1_19 Pin=P?-2
+Added Pin To Net: NetName=NetIC2_1_23 Pin=P?-2
+Added Pin To Net: NetName=NetIC2_2_19 Pin=P?-2
+Added Pin To Net: NetName=NetIC2_2_23 Pin=P?-2
+Added Pin To Net: NetName=NetIC2_3_19 Pin=P?-2
+Added Pin To Net: NetName=NetIC2_3_23 Pin=P?-2
+Added Pin To Net: NetName=PWM2 Pin=P?-3
+Added Pin To Net: NetName=RX1 Pin=P?-3
+Added Pin To Net: NetName=SCL Pin=P?-3
+Added Pin To Net: NetName=GND Pin=P?-5
+Added Pin To Net: NetName=GND Pin=P?-5
+Added Pin To Net: NetName=GND Pin=P?-5
+Added Pin To Net: NetName=NetIC2_3_23 Pin=POWER1-2
+Added Pin To Net: NetName=NetIC2_3_23 Pin=POWER1-3
+Added Pin To Net: NetName=NetIC2_3_23 Pin=PWM_H1-7
+Added Pin To Net: NetName=PWM12 Pin=R6_1-2
+Added Pin To Net: NetName=PWM5 Pin=R6_2-2
+Added Pin To Net: NetName=PWM8 Pin=R6_3-2
+Added Pin To Net: NetName=PWM10 Pin=R13_1-1
+Added Pin To Net: NetName=PWM9 Pin=R13_2-1
+Added Pin To Net: NetName=PWM6 Pin=R13_3-1
+Change Net Name : Old Net Name=NetIC2_1_19 New Net Name=NetP?_2
+Change Net Name : Old Net Name=NetIC2_1_23 New Net Name=NetP?_2
+Change Net Name : Old Net Name=NetIC2_2_19 New Net Name=NetP?_2
+Change Net Name : Old Net Name=NetIC2_2_23 New Net Name=NetP?_2
+Change Net Name : Old Net Name=NetIC2_3_19 New Net Name=NetP?_2
+Change Net Name : Old Net Name=NetIC2_3_23 New Net Name=GND
+Added Member To Class: ClassName=Overview Member=Component P? WRTBL_3P_508
+Added Member To Class: ClassName=Overview Member=Component P? WRTBL_3P_508
+Added Member To Class: ClassName=Overview Member=Component P? WRTBL_2P_508
+Added Member To Class: ClassName=Overview Member=Component P? WRTBL_2P_508
+Added Member To Class: ClassName=Overview Member=Component P? WRTBL_2P_508
+Added Member To Class: ClassName=Overview Member=Component P? WRTBL_2P_508
+Added Member To Class: ClassName=Overview Member=Component P? WRTBL_2P_508
+Added Member To Class: ClassName=Overview Member=Component P? WRTBL_5P_508
+Added Member To Class: ClassName=Overview Member=Component P? WRTBL_5P_508
+Added Member To Class: ClassName=Overview Member=Component P? WRTBL_5P_508

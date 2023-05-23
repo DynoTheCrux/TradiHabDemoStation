@@ -1,0 +1,909 @@
+Added Component: Designator=C1_U_OutputStage1(Cap_THT_Elko_rad_D8mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ax_rad"; Value = "rad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacity"; Value = "100u"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://de.rs-online.com/web/search/searchBrowseAction.html?method=getProduct&R=2286767"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_Elko_rad_100u_35V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name_Hyperlink"; Value = "Elko 100µF 35VDC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS_number"; Value = "228-6767"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "35V"; VariantName = "[No Variations]"
+Added Component: Designator=C1_U_OutputStage2(Cap_THT_Elko_rad_D8mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ax_rad"; Value = "rad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacity"; Value = "100u"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://de.rs-online.com/web/search/searchBrowseAction.html?method=getProduct&R=2286767"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_Elko_rad_100u_35V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name_Hyperlink"; Value = "Elko 100µF 35VDC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS_number"; Value = "228-6767"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "35V"; VariantName = "[No Variations]"
+Added Component: Designator=C1_U_OutputStage3(Cap_THT_Elko_rad_D8mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ax_rad"; Value = "rad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacity"; Value = "100u"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://de.rs-online.com/web/search/searchBrowseAction.html?method=getProduct&R=2286767"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_Elko_rad_100u_35V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name_Hyperlink"; Value = "Elko 100µF 35VDC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS_number"; Value = "228-6767"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "35V"; VariantName = "[No Variations]"
+Added Component: Designator=C2_U_OutputStage1(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_129"; VariantName = "[No Variations]"
+Added Component: Designator=C2_U_OutputStage2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_129"; VariantName = "[No Variations]"
+Added Component: Designator=C2_U_OutputStage3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_129"; VariantName = "[No Variations]"
+Added Component: Designator=C3_U_OutputStage1(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_129"; VariantName = "[No Variations]"
+Added Component: Designator=C3_U_OutputStage2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_129"; VariantName = "[No Variations]"
+Added Component: Designator=C3_U_OutputStage3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_129"; VariantName = "[No Variations]"
+Added Component: Designator=C4_U_OutputStage1(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_129"; VariantName = "[No Variations]"
+Added Component: Designator=C4_U_OutputStage2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_129"; VariantName = "[No Variations]"
+Added Component: Designator=C4_U_OutputStage3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_129"; VariantName = "[No Variations]"
+Added Component: Designator=C5_U_OutputStage1(_0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "#VALUE!"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_128"; VariantName = "[No Variations]"
+Added Component: Designator=C5_U_OutputStage2(_0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "#VALUE!"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_128"; VariantName = "[No Variations]"
+Added Component: Designator=C5_U_OutputStage3(_0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "#VALUE!"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_128"; VariantName = "[No Variations]"
+Added Component: Designator=C6_U_OutputStage1(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_129"; VariantName = "[No Variations]"
+Added Component: Designator=C6_U_OutputStage2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_129"; VariantName = "[No Variations]"
+Added Component: Designator=C6_U_OutputStage3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_129"; VariantName = "[No Variations]"
+Added Component: Designator=C7_U_OutputStage1(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_129"; VariantName = "[No Variations]"
+Added Component: Designator=C7_U_OutputStage2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_129"; VariantName = "[No Variations]"
+Added Component: Designator=C7_U_OutputStage3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_129"; VariantName = "[No Variations]"
+Added Component: Designator=C8(C)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Capacity"; Value = "47u"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_tan_47u_25V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name_Hyperlink"; Value = "Capacitor Tantalum SMT TR3D 25V 47uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS_number"; Value = "684-5284P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_56"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "25v"; VariantName = "[No Variations]"
+Added Component: Designator=C9(_1210)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Capacity"; Value = "?F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_1210"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_65"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "?V"; VariantName = "[No Variations]"
+Added Component: Designator=C10(_0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Capacity"; Value = "?F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_63"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "?V"; VariantName = "[No Variations]"
+Added Component: Designator=C11(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_129"; VariantName = "[No Variations]"
+Added Component: Designator=C12(_0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Capacity"; Value = "?F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_63"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "?V"; VariantName = "[No Variations]"
+Added Component: Designator=D1(TO_252)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Current / Power"; Value = "3.5 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "30WQ06FN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name_Hyperlink"; Value = "Diode 30WQ06FN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS_number"; Value = "300-357P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Schottky"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "DIODE_12"; VariantName = "[No Variations]"
+Added Component: Designator=D2(LED_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Colour"; Value = "blau"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "LED_0603_blau"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name_Hyperlink"; Value = "http://at.rs-online.com/web/p/products/6973610P/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS_number"; Value = "697-3610P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "LED"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "DIODE_60"; VariantName = "[No Variations]"
+Added Component: Designator=L1(WE_PD_XXL)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Current"; Value = "3.8 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Inductivity"; Value = "47 uH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "IND_47u_3A8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Ind_8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Wuerth_number"; Value = "744 7709 470"; VariantName = "[No Variations]"
+Added Component: Designator=P1_U_OutputStage1(WRTBL_2P_508)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://at.rs-online.com/web/search/searchBrowseAction.html?method=getProduct&R=1930586"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "WRTBL_2P_508"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name_Hyperlink"; Value = "Printklemme 5,08mm 2-polig"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS_number"; Value = "193-0586"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Con_7"; VariantName = "[No Variations]"
+Added Component: Designator=P1_U_OutputStage2(WRTBL_2P_508)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://at.rs-online.com/web/search/searchBrowseAction.html?method=getProduct&R=1930586"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "WRTBL_2P_508"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name_Hyperlink"; Value = "Printklemme 5,08mm 2-polig"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS_number"; Value = "193-0586"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Con_7"; VariantName = "[No Variations]"
+Added Component: Designator=P1_U_OutputStage3(WRTBL_2P_508)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://at.rs-online.com/web/search/searchBrowseAction.html?method=getProduct&R=1930586"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "WRTBL_2P_508"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name_Hyperlink"; Value = "Printklemme 5,08mm 2-polig"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS_number"; Value = "193-0586"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Con_7"; VariantName = "[No Variations]"
+Added Component: Designator=P2(WRTBL_4P_508)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "WRTBL_4P_508"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Con_9"; VariantName = "[No Variations]"
+Added Component: Designator=P3(Loetpad_2x_1_27)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Loetpad_2x_1_27"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Con_77"; VariantName = "[No Variations]"
+Added Component: Designator=P4(Loetpad_2x_1_27)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Loetpad_2x_1_27"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Con_77"; VariantName = "[No Variations]"
+Added Component: Designator=P5(WRTBL_2P_508)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://at.rs-online.com/web/search/searchBrowseAction.html?method=getProduct&R=1930586"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "WRTBL_2P_508"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name_Hyperlink"; Value = "Printklemme 5,08mm 2-polig"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS_number"; Value = "193-0586"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Con_7"; VariantName = "[No Variations]"
+Added Component: Designator=Q5(INF-PG-SOT223_SC-73_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.infineon.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.infineon.com/dgdl/BSP613P_Rev2.7.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a30433b47825b013b60ac86a96dc0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.infineon.com/dgdl/SOT223-Package_Overview.pdf?folderId=db3a30431936bc4b0119530470b03c3d&fileId=db3a30431936bc4b0119531d40b93c5c"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 2.7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Green"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Halogen-free"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ID (max)"; Value = "-2.9 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IDpuls (max)"; Value = "-11.6 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mode"; Value = "Enhancement"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "BSP613P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "4-Pin Small Outline Transistor Package, 6.5 x 3.5 mm Body, 2.3 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "PG-SOT223 (SC-73)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Apr-08"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "BSP613P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarity"; Value = "P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pto t (max)"; Value = "1.8 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QG"; Value = "-22 nC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RDS (on) (max)"; Value = "130 mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rth"; Value = "100 K/W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "BSP613P-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "SIPMOS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Tran_33"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VDS (max)"; Value = "-60 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VGS(th) (max)"; Value = "-4 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VGS(th) (min)"; Value = "-2.1 V"; VariantName = "[No Variations]"
+Added Component: Designator=R1_U_OutputStage1(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R1_U_OutputStage2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R1_U_OutputStage3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R2_U_OutputStage1(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R2_U_OutputStage2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R2_U_OutputStage3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R3_U_OutputStage1(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R3_U_OutputStage2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R3_U_OutputStage3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R4_U_OutputStage1(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R4_U_OutputStage2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R4_U_OutputStage3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R5_U_OutputStage1(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R5_U_OutputStage2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R5_U_OutputStage3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R6_U_OutputStage1(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R6_U_OutputStage2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R6_U_OutputStage3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R7_U_OutputStage1(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R7_U_OutputStage2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R7_U_OutputStage3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R8_U_OutputStage1(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R8_U_OutputStage2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R8_U_OutputStage3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R9_U_OutputStage1(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R9_U_OutputStage2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R9_U_OutputStage3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R10_U_OutputStage1(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R10_U_OutputStage2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R10_U_OutputStage3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R11_U_OutputStage1(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R11_U_OutputStage2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R11_U_OutputStage3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R12_U_OutputStage1(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R12_U_OutputStage2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R12_U_OutputStage3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R13_U_OutputStage1(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R13_U_OutputStage2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R13_U_OutputStage3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R14_U_OutputStage1(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R14_U_OutputStage2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R14_U_OutputStage3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R15(_1206)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_7"; VariantName = "[No Variations]"
+Added Component: Designator=R16(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R17(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R18(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R19(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R20(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R21(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R22(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R23(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=U1(INF-PG-DSO-14-1_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.infineon.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.infineon.com/dgdl/DCDC-Controller-IFX80471-Data-Sheet-V10-Infineon.pdf?folderId=db3a304314dca3890115039cf70d0bf0&fileId=db3a30432e398416012e487ec6e42599"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.infineon.com/dgdl/DCDC-Controller-IFX80471-Data-Sheet-V10-Infineon.pdf?folderId=db3a304314dca3890115039cf70d0bf0&fileId=db3a30432e398416012e487ec6e42599"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 1.0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Green"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Halogen-free"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Inhibit"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IQ (max)"; Value = "2,300 mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Iq (typ)"; Value = "130 uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Number Reflow"; Value = "3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Peak Reflow Temp"; Value = "260 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MSL"; Value = "3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output"; Value = "Buck Converter"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "14-Pin Plastic (Green) Dual Small Outline Package, 8.65 x 3.9 mm Body, 1.27 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "PG-DSO-14-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Apr-11"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "IFX80471SK V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Protect"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reset"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 4"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "IFX80471SK VINTR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "IFX80471SK VINCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "IFX80471SK VINDKR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 4"; Value = "726-IFX80471SKV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "3(5)%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VQ (max)"; Value = "adjustable"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5V Pin=C9-2
+Added Pin To Net: NetName=+5V Pin=D2-1
+Added Pin To Net: NetName=+5V Pin=L1-2
+Added Pin To Net: NetName=+5V Pin=P2-1
+Added Pin To Net: NetName=+5V Pin=P2-2
+Added Pin To Net: NetName=+5V Pin=R19-2
+Added Pin To Net: NetName=+5V Pin=U1-3
+Added Net: Name=+5V
+Added Pin To Net: NetName=5V_U_OutputStage1 Pin=C5_U_OutputStage1-2
+Added Pin To Net: NetName=5V_U_OutputStage1 Pin=R3_U_OutputStage1-1
+Added Pin To Net: NetName=5V_U_OutputStage1 Pin=R7_U_OutputStage1-2
+Added Pin To Net: NetName=5V_U_OutputStage1 Pin=R8_U_OutputStage1-2
+Added Pin To Net: NetName=5V_U_OutputStage1 Pin=R11_U_OutputStage1-2
+Added Net: Name=5V_U_OutputStage1
+Added Pin To Net: NetName=5V_U_OutputStage2 Pin=C5_U_OutputStage2-2
+Added Pin To Net: NetName=5V_U_OutputStage2 Pin=R3_U_OutputStage2-1
+Added Pin To Net: NetName=5V_U_OutputStage2 Pin=R7_U_OutputStage2-2
+Added Pin To Net: NetName=5V_U_OutputStage2 Pin=R8_U_OutputStage2-2
+Added Pin To Net: NetName=5V_U_OutputStage2 Pin=R11_U_OutputStage2-2
+Added Net: Name=5V_U_OutputStage2
+Added Pin To Net: NetName=5V_U_OutputStage3 Pin=C5_U_OutputStage3-2
+Added Pin To Net: NetName=5V_U_OutputStage3 Pin=R3_U_OutputStage3-1
+Added Pin To Net: NetName=5V_U_OutputStage3 Pin=R7_U_OutputStage3-2
+Added Pin To Net: NetName=5V_U_OutputStage3 Pin=R8_U_OutputStage3-2
+Added Pin To Net: NetName=5V_U_OutputStage3 Pin=R11_U_OutputStage3-2
+Added Net: Name=5V_U_OutputStage3
+Added Pin To Net: NetName=GND_U_OutputStage1 Pin=C2_U_OutputStage1-2
+Added Pin To Net: NetName=GND_U_OutputStage1 Pin=C4_U_OutputStage1-2
+Added Pin To Net: NetName=GND_U_OutputStage1 Pin=C5_U_OutputStage1-1
+Added Pin To Net: NetName=GND_U_OutputStage1 Pin=R4_U_OutputStage1-2
+Added Pin To Net: NetName=GND_U_OutputStage1 Pin=R5_U_OutputStage1-2
+Added Pin To Net: NetName=GND_U_OutputStage1 Pin=R6_U_OutputStage1-1
+Added Pin To Net: NetName=GND_U_OutputStage1 Pin=R13_U_OutputStage1-2
+Added Pin To Net: NetName=GND_U_OutputStage1 Pin=R14_U_OutputStage1-2
+Added Net: Name=GND_U_OutputStage1
+Added Pin To Net: NetName=GND_U_OutputStage2 Pin=C2_U_OutputStage2-2
+Added Pin To Net: NetName=GND_U_OutputStage2 Pin=C4_U_OutputStage2-2
+Added Pin To Net: NetName=GND_U_OutputStage2 Pin=C5_U_OutputStage2-1
+Added Pin To Net: NetName=GND_U_OutputStage2 Pin=R4_U_OutputStage2-2
+Added Pin To Net: NetName=GND_U_OutputStage2 Pin=R5_U_OutputStage2-2
+Added Pin To Net: NetName=GND_U_OutputStage2 Pin=R6_U_OutputStage2-1
+Added Pin To Net: NetName=GND_U_OutputStage2 Pin=R13_U_OutputStage2-2
+Added Pin To Net: NetName=GND_U_OutputStage2 Pin=R14_U_OutputStage2-2
+Added Net: Name=GND_U_OutputStage2
+Added Pin To Net: NetName=GND_U_OutputStage3 Pin=C2_U_OutputStage3-2
+Added Pin To Net: NetName=GND_U_OutputStage3 Pin=C4_U_OutputStage3-2
+Added Pin To Net: NetName=GND_U_OutputStage3 Pin=C5_U_OutputStage3-1
+Added Pin To Net: NetName=GND_U_OutputStage3 Pin=R4_U_OutputStage3-2
+Added Pin To Net: NetName=GND_U_OutputStage3 Pin=R5_U_OutputStage3-2
+Added Pin To Net: NetName=GND_U_OutputStage3 Pin=R6_U_OutputStage3-1
+Added Pin To Net: NetName=GND_U_OutputStage3 Pin=R13_U_OutputStage3-2
+Added Pin To Net: NetName=GND_U_OutputStage3 Pin=R14_U_OutputStage3-2
+Added Net: Name=GND_U_OutputStage3
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C9-1
+Added Pin To Net: NetName=GND Pin=C12-1
+Added Pin To Net: NetName=GND Pin=D1-1
+Added Pin To Net: NetName=GND Pin=D1-2
+Added Pin To Net: NetName=GND Pin=P2-3
+Added Pin To Net: NetName=GND Pin=P2-4
+Added Pin To Net: NetName=GND Pin=R16-1
+Added Pin To Net: NetName=GND Pin=R17-1
+Added Pin To Net: NetName=GND Pin=R18-1
+Added Pin To Net: NetName=GND Pin=R22-1
+Added Pin To Net: NetName=GND Pin=R23-2
+Added Pin To Net: NetName=GND Pin=U1-4
+Added Net: Name=GND
+Added Pin To Net: NetName=NetC2_U_OutputStage1_1 Pin=C2_U_OutputStage1-1
+Added Net: Name=NetC2_U_OutputStage1_1
+Added Pin To Net: NetName=NetC2_U_OutputStage2_1 Pin=C2_U_OutputStage2-1
+Added Net: Name=NetC2_U_OutputStage2_1
+Added Pin To Net: NetName=NetC2_U_OutputStage3_1 Pin=C2_U_OutputStage3-1
+Added Net: Name=NetC2_U_OutputStage3_1
+Added Pin To Net: NetName=NetC3_U_OutputStage1_1 Pin=C3_U_OutputStage1-1
+Added Net: Name=NetC3_U_OutputStage1_1
+Added Pin To Net: NetName=NetC3_U_OutputStage1_2 Pin=C3_U_OutputStage1-2
+Added Pin To Net: NetName=NetC3_U_OutputStage1_2 Pin=P1_U_OutputStage1-1
+Added Net: Name=NetC3_U_OutputStage1_2
+Added Pin To Net: NetName=NetC3_U_OutputStage2_1 Pin=C3_U_OutputStage2-1
+Added Net: Name=NetC3_U_OutputStage2_1
+Added Pin To Net: NetName=NetC3_U_OutputStage2_2 Pin=C3_U_OutputStage2-2
+Added Pin To Net: NetName=NetC3_U_OutputStage2_2 Pin=P1_U_OutputStage2-1
+Added Net: Name=NetC3_U_OutputStage2_2
+Added Pin To Net: NetName=NetC3_U_OutputStage3_1 Pin=C3_U_OutputStage3-1
+Added Net: Name=NetC3_U_OutputStage3_1
+Added Pin To Net: NetName=NetC3_U_OutputStage3_2 Pin=C3_U_OutputStage3-2
+Added Pin To Net: NetName=NetC3_U_OutputStage3_2 Pin=P1_U_OutputStage3-1
+Added Net: Name=NetC3_U_OutputStage3_2
+Added Pin To Net: NetName=NetC4_U_OutputStage1_1 Pin=C4_U_OutputStage1-1
+Added Net: Name=NetC4_U_OutputStage1_1
+Added Pin To Net: NetName=NetC4_U_OutputStage2_1 Pin=C4_U_OutputStage2-1
+Added Net: Name=NetC4_U_OutputStage2_1
+Added Pin To Net: NetName=NetC4_U_OutputStage3_1 Pin=C4_U_OutputStage3-1
+Added Net: Name=NetC4_U_OutputStage3_1
+Added Pin To Net: NetName=NetC6_U_OutputStage1_1 Pin=C6_U_OutputStage1-1
+Added Net: Name=NetC6_U_OutputStage1_1
+Added Pin To Net: NetName=NetC6_U_OutputStage1_2 Pin=C6_U_OutputStage1-2
+Added Net: Name=NetC6_U_OutputStage1_2
+Added Pin To Net: NetName=NetC6_U_OutputStage2_1 Pin=C6_U_OutputStage2-1
+Added Net: Name=NetC6_U_OutputStage2_1
+Added Pin To Net: NetName=NetC6_U_OutputStage2_2 Pin=C6_U_OutputStage2-2
+Added Net: Name=NetC6_U_OutputStage2_2
+Added Pin To Net: NetName=NetC6_U_OutputStage3_1 Pin=C6_U_OutputStage3-1
+Added Net: Name=NetC6_U_OutputStage3_1
+Added Pin To Net: NetName=NetC6_U_OutputStage3_2 Pin=C6_U_OutputStage3-2
+Added Net: Name=NetC6_U_OutputStage3_2
+Added Pin To Net: NetName=NetC7_U_OutputStage1_1 Pin=C7_U_OutputStage1-1
+Added Net: Name=NetC7_U_OutputStage1_1
+Added Pin To Net: NetName=NetC7_U_OutputStage1_2 Pin=C7_U_OutputStage1-2
+Added Net: Name=NetC7_U_OutputStage1_2
+Added Pin To Net: NetName=NetC7_U_OutputStage2_1 Pin=C7_U_OutputStage2-1
+Added Net: Name=NetC7_U_OutputStage2_1
+Added Pin To Net: NetName=NetC7_U_OutputStage2_2 Pin=C7_U_OutputStage2-2
+Added Net: Name=NetC7_U_OutputStage2_2
+Added Pin To Net: NetName=NetC7_U_OutputStage3_1 Pin=C7_U_OutputStage3-1
+Added Net: Name=NetC7_U_OutputStage3_1
+Added Pin To Net: NetName=NetC7_U_OutputStage3_2 Pin=C7_U_OutputStage3-2
+Added Net: Name=NetC7_U_OutputStage3_2
+Added Pin To Net: NetName=NetC8_1 Pin=C8-1
+Added Pin To Net: NetName=NetC8_1 Pin=C10-2
+Added Pin To Net: NetName=NetC8_1 Pin=C12-2
+Added Pin To Net: NetName=NetC8_1 Pin=P5-2
+Added Pin To Net: NetName=NetC8_1 Pin=R15-1
+Added Pin To Net: NetName=NetC8_1 Pin=R20-1
+Added Pin To Net: NetName=NetC8_1 Pin=U1-1
+Added Pin To Net: NetName=NetC8_1 Pin=U1-13
+Added Net: Name=NetC8_1
+Added Pin To Net: NetName=NetC10_1 Pin=C10-1
+Added Pin To Net: NetName=NetC10_1 Pin=U1-11
+Added Net: Name=NetC10_1
+Added Pin To Net: NetName=NetC11_1 Pin=C11-1
+Added Pin To Net: NetName=NetC11_1 Pin=U1-8
+Added Net: Name=NetC11_1
+Added Pin To Net: NetName=NetC11_2 Pin=C11-2
+Added Pin To Net: NetName=NetC11_2 Pin=R23-1
+Added Net: Name=NetC11_2
+Added Pin To Net: NetName=NetD1_3 Pin=D1-3
+Added Pin To Net: NetName=NetD1_3 Pin=L1-1
+Added Pin To Net: NetName=NetD1_3 Pin=Q5-2
+Added Pin To Net: NetName=NetD1_3 Pin=Q5-4
+Added Net: Name=NetD1_3
+Added Pin To Net: NetName=NetD2_2 Pin=D2-2
+Added Pin To Net: NetName=NetD2_2 Pin=R18-2
+Added Net: Name=NetD2_2
+Added Pin To Net: NetName=NetIC1_U_OutputStage1_3 Pin=P1_U_OutputStage1-2
+Added Net: Name=NetIC1_U_OutputStage1_3
+Added Net: Name=NetIC1_U_OutputStage1_7
+Added Pin To Net: NetName=NetIC1_U_OutputStage2_3 Pin=P1_U_OutputStage2-2
+Added Net: Name=NetIC1_U_OutputStage2_3
+Added Net: Name=NetIC1_U_OutputStage2_7
+Added Pin To Net: NetName=NetIC1_U_OutputStage3_3 Pin=P1_U_OutputStage3-2
+Added Net: Name=NetIC1_U_OutputStage3_3
+Added Net: Name=NetIC1_U_OutputStage3_7
+Added Pin To Net: NetName=NetIC2_U_OutputStage1_3 Pin=R2_U_OutputStage1-2
+Added Net: Name=NetIC2_U_OutputStage1_3
+Added Pin To Net: NetName=NetIC2_U_OutputStage1_5 Pin=R1_U_OutputStage1-2
+Added Net: Name=NetIC2_U_OutputStage1_5
+Added Pin To Net: NetName=NetIC2_U_OutputStage1_10 Pin=R9_U_OutputStage1-2
+Added Net: Name=NetIC2_U_OutputStage1_10
+Added Pin To Net: NetName=NetIC2_U_OutputStage1_12 Pin=R12_U_OutputStage1-2
+Added Net: Name=NetIC2_U_OutputStage1_12
+Added Pin To Net: NetName=NetIC2_U_OutputStage1_19 Pin=R13_U_OutputStage1-1
+Added Net: Name=NetIC2_U_OutputStage1_19
+Added Pin To Net: NetName=NetIC2_U_OutputStage1_22 Pin=R11_U_OutputStage1-1
+Added Net: Name=NetIC2_U_OutputStage1_22
+Added Pin To Net: NetName=NetIC2_U_OutputStage1_23 Pin=R6_U_OutputStage1-2
+Added Net: Name=NetIC2_U_OutputStage1_23
+Added Pin To Net: NetName=NetIC2_U_OutputStage1_24 Pin=R10_U_OutputStage1-1
+Added Net: Name=NetIC2_U_OutputStage1_24
+Added Pin To Net: NetName=NetIC2_U_OutputStage1_25 Pin=R8_U_OutputStage1-1
+Added Net: Name=NetIC2_U_OutputStage1_25
+Added Pin To Net: NetName=NetIC2_U_OutputStage1_26 Pin=R7_U_OutputStage1-1
+Added Net: Name=NetIC2_U_OutputStage1_26
+Added Pin To Net: NetName=NetIC2_U_OutputStage1_27 Pin=R5_U_OutputStage1-1
+Added Net: Name=NetIC2_U_OutputStage1_27
+Added Pin To Net: NetName=NetIC2_U_OutputStage1_28 Pin=R3_U_OutputStage1-2
+Added Pin To Net: NetName=NetIC2_U_OutputStage1_28 Pin=R4_U_OutputStage1-1
+Added Net: Name=NetIC2_U_OutputStage1_28
+Added Pin To Net: NetName=NetIC2_U_OutputStage2_3 Pin=R2_U_OutputStage2-2
+Added Net: Name=NetIC2_U_OutputStage2_3
+Added Pin To Net: NetName=NetIC2_U_OutputStage2_5 Pin=R1_U_OutputStage2-2
+Added Net: Name=NetIC2_U_OutputStage2_5
+Added Pin To Net: NetName=NetIC2_U_OutputStage2_10 Pin=R9_U_OutputStage2-2
+Added Net: Name=NetIC2_U_OutputStage2_10
+Added Pin To Net: NetName=NetIC2_U_OutputStage2_12 Pin=R12_U_OutputStage2-2
+Added Net: Name=NetIC2_U_OutputStage2_12
+Added Pin To Net: NetName=NetIC2_U_OutputStage2_19 Pin=R13_U_OutputStage2-1
+Added Net: Name=NetIC2_U_OutputStage2_19
+Added Pin To Net: NetName=NetIC2_U_OutputStage2_22 Pin=R11_U_OutputStage2-1
+Added Net: Name=NetIC2_U_OutputStage2_22
+Added Pin To Net: NetName=NetIC2_U_OutputStage2_23 Pin=R6_U_OutputStage2-2
+Added Net: Name=NetIC2_U_OutputStage2_23
+Added Pin To Net: NetName=NetIC2_U_OutputStage2_24 Pin=R10_U_OutputStage2-1
+Added Net: Name=NetIC2_U_OutputStage2_24
+Added Pin To Net: NetName=NetIC2_U_OutputStage2_25 Pin=R8_U_OutputStage2-1
+Added Net: Name=NetIC2_U_OutputStage2_25
+Added Pin To Net: NetName=NetIC2_U_OutputStage2_26 Pin=R7_U_OutputStage2-1
+Added Net: Name=NetIC2_U_OutputStage2_26
+Added Pin To Net: NetName=NetIC2_U_OutputStage2_27 Pin=R5_U_OutputStage2-1
+Added Net: Name=NetIC2_U_OutputStage2_27
+Added Pin To Net: NetName=NetIC2_U_OutputStage2_28 Pin=R3_U_OutputStage2-2
+Added Pin To Net: NetName=NetIC2_U_OutputStage2_28 Pin=R4_U_OutputStage2-1
+Added Net: Name=NetIC2_U_OutputStage2_28
+Added Pin To Net: NetName=NetIC2_U_OutputStage3_3 Pin=R2_U_OutputStage3-2
+Added Net: Name=NetIC2_U_OutputStage3_3
+Added Pin To Net: NetName=NetIC2_U_OutputStage3_5 Pin=R1_U_OutputStage3-2
+Added Net: Name=NetIC2_U_OutputStage3_5
+Added Pin To Net: NetName=NetIC2_U_OutputStage3_10 Pin=R9_U_OutputStage3-2
+Added Net: Name=NetIC2_U_OutputStage3_10
+Added Pin To Net: NetName=NetIC2_U_OutputStage3_12 Pin=R12_U_OutputStage3-2
+Added Net: Name=NetIC2_U_OutputStage3_12
+Added Pin To Net: NetName=NetIC2_U_OutputStage3_19 Pin=R13_U_OutputStage3-1
+Added Net: Name=NetIC2_U_OutputStage3_19
+Added Pin To Net: NetName=NetIC2_U_OutputStage3_22 Pin=R11_U_OutputStage3-1
+Added Net: Name=NetIC2_U_OutputStage3_22
+Added Pin To Net: NetName=NetIC2_U_OutputStage3_23 Pin=R6_U_OutputStage3-2
+Added Net: Name=NetIC2_U_OutputStage3_23
+Added Pin To Net: NetName=NetIC2_U_OutputStage3_24 Pin=R10_U_OutputStage3-1
+Added Net: Name=NetIC2_U_OutputStage3_24
+Added Pin To Net: NetName=NetIC2_U_OutputStage3_25 Pin=R8_U_OutputStage3-1
+Added Net: Name=NetIC2_U_OutputStage3_25
+Added Pin To Net: NetName=NetIC2_U_OutputStage3_26 Pin=R7_U_OutputStage3-1
+Added Net: Name=NetIC2_U_OutputStage3_26
+Added Pin To Net: NetName=NetIC2_U_OutputStage3_27 Pin=R5_U_OutputStage3-1
+Added Net: Name=NetIC2_U_OutputStage3_27
+Added Pin To Net: NetName=NetIC2_U_OutputStage3_28 Pin=R3_U_OutputStage3-2
+Added Pin To Net: NetName=NetIC2_U_OutputStage3_28 Pin=R4_U_OutputStage3-1
+Added Net: Name=NetIC2_U_OutputStage3_28
+Added Pin To Net: NetName=NetJ1_2 Pin=P3-2
+Added Net: Name=NetJ1_2
+Added Pin To Net: NetName=NetJ1_3 Pin=P3-1
+Added Net: Name=NetJ1_3
+Added Pin To Net: NetName=NetJ1_Shell Pin=R16-2
+Added Net: Name=NetJ1_Shell
+Added Pin To Net: NetName=NetJ2_2 Pin=P4-2
+Added Net: Name=NetJ2_2
+Added Pin To Net: NetName=NetJ2_3 Pin=P4-1
+Added Net: Name=NetJ2_3
+Added Pin To Net: NetName=NetJ2_Shell Pin=R17-2
+Added Net: Name=NetJ2_Shell
+Added Pin To Net: NetName=NetP5_1 Pin=P5-1
+Added Net: Name=NetP5_1
+Added Pin To Net: NetName=NetQ1_U_OutputStage1_1 Pin=R1_U_OutputStage1-1
+Added Net: Name=NetQ1_U_OutputStage1_1
+Added Pin To Net: NetName=NetQ1_U_OutputStage2_1 Pin=R1_U_OutputStage2-1
+Added Net: Name=NetQ1_U_OutputStage2_1
+Added Pin To Net: NetName=NetQ1_U_OutputStage3_1 Pin=R1_U_OutputStage3-1
+Added Net: Name=NetQ1_U_OutputStage3_1
+Added Pin To Net: NetName=NetQ2_U_OutputStage1_1 Pin=R2_U_OutputStage1-1
+Added Net: Name=NetQ2_U_OutputStage1_1
+Added Pin To Net: NetName=NetQ2_U_OutputStage2_1 Pin=R2_U_OutputStage2-1
+Added Net: Name=NetQ2_U_OutputStage2_1
+Added Pin To Net: NetName=NetQ2_U_OutputStage3_1 Pin=R2_U_OutputStage3-1
+Added Net: Name=NetQ2_U_OutputStage3_1
+Added Pin To Net: NetName=NetQ3_U_OutputStage1_1 Pin=R9_U_OutputStage1-1
+Added Net: Name=NetQ3_U_OutputStage1_1
+Added Pin To Net: NetName=NetQ3_U_OutputStage2_1 Pin=R9_U_OutputStage2-1
+Added Net: Name=NetQ3_U_OutputStage2_1
+Added Pin To Net: NetName=NetQ3_U_OutputStage3_1 Pin=R9_U_OutputStage3-1
+Added Net: Name=NetQ3_U_OutputStage3_1
+Added Pin To Net: NetName=NetQ4_U_OutputStage1_1 Pin=R12_U_OutputStage1-1
+Added Net: Name=NetQ4_U_OutputStage1_1
+Added Pin To Net: NetName=NetQ4_U_OutputStage2_1 Pin=R12_U_OutputStage2-1
+Added Net: Name=NetQ4_U_OutputStage2_1
+Added Pin To Net: NetName=NetQ4_U_OutputStage3_1 Pin=R12_U_OutputStage3-1
+Added Net: Name=NetQ4_U_OutputStage3_1
+Added Pin To Net: NetName=NetQ5_1 Pin=Q5-1
+Added Pin To Net: NetName=NetQ5_1 Pin=U1-12
+Added Net: Name=NetQ5_1
+Added Pin To Net: NetName=NetQ5_3 Pin=Q5-3
+Added Pin To Net: NetName=NetQ5_3 Pin=R15-2
+Added Pin To Net: NetName=NetQ5_3 Pin=U1-14
+Added Net: Name=NetQ5_3
+Added Pin To Net: NetName=NetR19_1 Pin=R19-1
+Added Pin To Net: NetName=NetR19_1 Pin=R22-2
+Added Pin To Net: NetName=NetR19_1 Pin=U1-2
+Added Net: Name=NetR19_1
+Added Pin To Net: NetName=NetR20_2 Pin=R20-2
+Added Pin To Net: NetName=NetR20_2 Pin=R21-1
+Added Pin To Net: NetName=NetR20_2 Pin=U1-7
+Added Net: Name=NetR20_2
+Added Pin To Net: NetName=NetR21_2 Pin=R21-2
+Added Pin To Net: NetName=NetR21_2 Pin=U1-6
+Added Net: Name=NetR21_2
+Added Pin To Net: NetName=PGND_U_OutputStage1 Pin=C1_U_OutputStage1-2
+Added Pin To Net: NetName=PGND_U_OutputStage1 Pin=R14_U_OutputStage1-1
+Added Net: Name=PGND_U_OutputStage1
+Added Pin To Net: NetName=PGND_U_OutputStage2 Pin=C1_U_OutputStage2-2
+Added Pin To Net: NetName=PGND_U_OutputStage2 Pin=R14_U_OutputStage2-1
+Added Net: Name=PGND_U_OutputStage2
+Added Pin To Net: NetName=PGND_U_OutputStage3 Pin=C1_U_OutputStage3-2
+Added Pin To Net: NetName=PGND_U_OutputStage3 Pin=R14_U_OutputStage3-1
+Added Net: Name=PGND_U_OutputStage3
+Added Pin To Net: NetName=V+_U_OutputStage1 Pin=C1_U_OutputStage1-1
+Added Pin To Net: NetName=V+_U_OutputStage1 Pin=R10_U_OutputStage1-2
+Added Net: Name=V+_U_OutputStage1
+Added Pin To Net: NetName=V+_U_OutputStage2 Pin=C1_U_OutputStage2-1
+Added Pin To Net: NetName=V+_U_OutputStage2 Pin=R10_U_OutputStage2-2
+Added Net: Name=V+_U_OutputStage2
+Added Pin To Net: NetName=V+_U_OutputStage3 Pin=C1_U_OutputStage3-1
+Added Pin To Net: NetName=V+_U_OutputStage3 Pin=R10_U_OutputStage3-2
+Added Net: Name=V+_U_OutputStage3
+Added Class: Name=U_OutputStage1
+Added Class: Name=U_OutputStage2
+Added Class: Name=U_OutputStage3
+Added Class: Name=U_PowerSupply
+Added Class: Name=OutputStage
+Added Room: Name=U_OutputStage1
+Added Room: Name=U_OutputStage2
+Added Room: Name=U_OutputStage3
+Added Room: Name=U_PowerSupply

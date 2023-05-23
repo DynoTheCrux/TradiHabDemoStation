@@ -1,0 +1,30 @@
+Added Component: Designator=R24(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "#VALUE!"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R25(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "#VALUE!"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=PWM2 Pin=P8-1
+Added Pin To Net: NetName=PWM2 Pin=PWM_L1-2
+Added Pin To Net: NetName=RX2 Pin=R24-1
+Added Pin To Net: NetName=5V Pin=R24-2
+Added Pin To Net: NetName=RX3 Pin=R25-1
+Added Pin To Net: NetName=5V Pin=R25-2
+Change Net Name : Old Net Name=PWM2 New Net Name=En3_CHB
+Change Net Name : Old Net Name=PWM6 New Net Name=DIR3
+Change Net Name : Old Net Name=PWM8 New Net Name=PWM2
+Change Net Name : Old Net Name=PWM9 New Net Name=DIR2
+Change Net Name : Old Net Name=PWM10 New Net Name=DIR1
+Change Net Name : Old Net Name=PWM12 New Net Name=PWM1
+Change Net Name : Old Net Name=RX1 New Net Name=En1_CHA
+Change Net Name : Old Net Name=SCL New Net Name=En2_CHA
+Change Net Name : Old Net Name=SDA New Net Name=En2_CHB
+Change Net Name : Old Net Name=TX1 New Net Name=En1_CHB
+Added Member To Class: ClassName=Overview Member=Component R24 1k2
+Added Member To Class: ClassName=Overview Member=Component R25 1k2

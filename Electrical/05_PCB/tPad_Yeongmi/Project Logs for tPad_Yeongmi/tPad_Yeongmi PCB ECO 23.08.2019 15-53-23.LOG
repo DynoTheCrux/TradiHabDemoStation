@@ -1,0 +1,100 @@
+Added Component: Designator=P?(WRTBL_5P_508)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "WRTBL_5P_508"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Con_10"; VariantName = "[No Variations]"
+Added Component: Designator=P?(WRTBL_5P_508)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "WRTBL_5P_508"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Con_10"; VariantName = "[No Variations]"
+Added Component: Designator=P?(WRTBL_3P_508)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "WRTBL_3P_508"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Con_8"; VariantName = "[No Variations]"
+Added Component: Designator=P?(WRTBL_3P_508)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "WRTBL_3P_508"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Con_8"; VariantName = "[No Variations]"
+Added Component: Designator=P?(WRTBL_2P_508)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://at.rs-online.com/web/search/searchBrowseAction.html?method=getProduct&R=1930586"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "WRTBL_2P_508"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name_Hyperlink"; Value = "Printklemme 5,08mm 2-polig"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS_number"; Value = "193-0586"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Con_7"; VariantName = "[No Variations]"
+Added Component: Designator=P?(WRTBL_2P_508)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://at.rs-online.com/web/search/searchBrowseAction.html?method=getProduct&R=1930586"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "WRTBL_2P_508"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name_Hyperlink"; Value = "Printklemme 5,08mm 2-polig"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS_number"; Value = "193-0586"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Con_7"; VariantName = "[No Variations]"
+Added Component: Designator=P?(WRTBL_2P_508)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://at.rs-online.com/web/search/searchBrowseAction.html?method=getProduct&R=1930586"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "WRTBL_2P_508"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name_Hyperlink"; Value = "Printklemme 5,08mm 2-polig"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS_number"; Value = "193-0586"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Con_7"; VariantName = "[No Variations]"
+Added Component: Designator=P?(WRTBL_2P_508)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://at.rs-online.com/web/search/searchBrowseAction.html?method=getProduct&R=1930586"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "WRTBL_2P_508"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name_Hyperlink"; Value = "Printklemme 5,08mm 2-polig"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS_number"; Value = "193-0586"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Con_7"; VariantName = "[No Variations]"
+Added Component: Designator=P?(WRTBL_2P_508)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://at.rs-online.com/web/search/searchBrowseAction.html?method=getProduct&R=1930586"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "WRTBL_2P_508"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name_Hyperlink"; Value = "Printklemme 5,08mm 2-polig"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS_number"; Value = "193-0586"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Con_7"; VariantName = "[No Variations]"
+Added Component: Designator=P?(WRTBL_2P_508)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://at.rs-online.com/web/search/searchBrowseAction.html?method=getProduct&R=1930586"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "WRTBL_2P_508"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name_Hyperlink"; Value = "Printklemme 5,08mm 2-polig"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS_number"; Value = "193-0586"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Con_7"; VariantName = "[No Variations]"
+Added Component: Designator=P?(WRTBL_5P_508)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "WRTBL_5P_508"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Con_10"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V Pin=P?-2
+Added Pin To Net: NetName=5V Pin=P?-2
+Added Pin To Net: NetName=5V Pin=P?-2
+Added Class: Name=Overview
+Added Room: Name=Overview

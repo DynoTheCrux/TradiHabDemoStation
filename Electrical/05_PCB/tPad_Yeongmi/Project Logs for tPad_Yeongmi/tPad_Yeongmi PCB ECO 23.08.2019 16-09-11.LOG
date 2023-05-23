@@ -1,0 +1,26 @@
+Change Component Designator: OldDesignator=P? NewDesignator=P6
+Change Component Designator: OldDesignator=P? NewDesignator=P7
+Change Component Designator: OldDesignator=P? NewDesignator=P8
+Change Component Designator: OldDesignator=P? NewDesignator=P9
+Change Component Designator: OldDesignator=P? NewDesignator=P10
+Change Component Designator: OldDesignator=P? NewDesignator=P11
+Change Component Designator: OldDesignator=P? NewDesignator=P12
+Change Component Designator: OldDesignator=P? NewDesignator=P13
+Change Component Designator: OldDesignator=P? NewDesignator=P14
+Change Component Designator: OldDesignator=P? NewDesignator=P15
+Change Component Designator: OldDesignator=P? NewDesignator=P16
+Change Net Name : Old Net Name=NetP?_2 New Net Name=NetP9_2
+Change Net Name : Old Net Name=NetP?_2 New Net Name=NetP10_2
+Change Net Name : Old Net Name=NetP?_2 New Net Name=NetP11_2
+Change Net Name : Old Net Name=NetP?_2 New Net Name=NetP12_2
+Change Net Name : Old Net Name=NetP?_2 New Net Name=NetP13_2
+Added Member To Class: ClassName=Overview Member=Component P7 WRTBL_5P_508
+Added Member To Class: ClassName=Overview Member=Component P8 WRTBL_5P_508
+Added Member To Class: ClassName=Overview Member=Component P9 WRTBL_2P_508
+Added Member To Class: ClassName=Overview Member=Component P10 WRTBL_2P_508
+Added Member To Class: ClassName=Overview Member=Component P11 WRTBL_2P_508
+Added Member To Class: ClassName=Overview Member=Component P12 WRTBL_2P_508
+Added Member To Class: ClassName=Overview Member=Component P13 WRTBL_2P_508
+Added Member To Class: ClassName=Overview Member=Component P14 WRTBL_2P_508
+Added Member To Class: ClassName=Overview Member=Component P15 WRTBL_3P_508
+Added Member To Class: ClassName=Overview Member=Component P16 WRTBL_3P_508

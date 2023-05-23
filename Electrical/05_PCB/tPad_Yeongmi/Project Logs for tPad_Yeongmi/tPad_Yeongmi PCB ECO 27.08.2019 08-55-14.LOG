@@ -1,0 +1,901 @@
+Removed Pin From Net: NetName=5V Pin=C5_1-2
+Removed Pin From Net: NetName=5V Pin=IC1_1-8
+Removed Pin From Net: NetName=5V Pin=IC2_1-20
+Removed Pin From Net: NetName=5V Pin=IC2_1-21
+Removed Pin From Net: NetName=5V Pin=R3_1-1
+Removed Pin From Net: NetName=5V Pin=R7_1-2
+Removed Pin From Net: NetName=5V Pin=R8_1-2
+Removed Pin From Net: NetName=5V Pin=R11_1-2
+Added Component: Designator=C1_2(Cap_THT_Elko_rad_D8mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ax_rad"; Value = "rad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacity"; Value = "100u"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://de.rs-online.com/web/search/searchBrowseAction.html?method=getProduct&R=2286767"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_Elko_rad_100u_35V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name_Hyperlink"; Value = "Elko 100µF 35VDC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS_number"; Value = "228-6767"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "35V"; VariantName = "[No Variations]"
+Added Component: Designator=C1_3(Cap_THT_Elko_rad_D8mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ax_rad"; Value = "rad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacity"; Value = "100u"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://de.rs-online.com/web/search/searchBrowseAction.html?method=getProduct&R=2286767"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_Elko_rad_100u_35V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name_Hyperlink"; Value = "Elko 100µF 35VDC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS_number"; Value = "228-6767"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "35V"; VariantName = "[No Variations]"
+Added Component: Designator=C2_2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_129"; VariantName = "[No Variations]"
+Added Component: Designator=C2_3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_129"; VariantName = "[No Variations]"
+Added Component: Designator=C3_2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_129"; VariantName = "[No Variations]"
+Added Component: Designator=C3_3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_129"; VariantName = "[No Variations]"
+Added Component: Designator=C4_2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_129"; VariantName = "[No Variations]"
+Added Component: Designator=C4_3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_129"; VariantName = "[No Variations]"
+Added Component: Designator=C5_2(_0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "#VALUE!"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_128"; VariantName = "[No Variations]"
+Added Component: Designator=C5_3(_0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "#VALUE!"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_128"; VariantName = "[No Variations]"
+Added Component: Designator=C6_2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_129"; VariantName = "[No Variations]"
+Added Component: Designator=C6_3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_129"; VariantName = "[No Variations]"
+Added Component: Designator=C7_2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_129"; VariantName = "[No Variations]"
+Added Component: Designator=C7_3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_129"; VariantName = "[No Variations]"
+Added Component: Designator=C13_2(Cap_THT_Elko_rad_D8mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ax_rad"; Value = "rad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacity"; Value = "100u"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://de.rs-online.com/web/search/searchBrowseAction.html?method=getProduct&R=2286767"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_Elko_rad_100u_35V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name_Hyperlink"; Value = "Elko 100µF 35VDC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS_number"; Value = "228-6767"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "35V"; VariantName = "[No Variations]"
+Added Component: Designator=C13_3(Cap_THT_Elko_rad_D8mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ax_rad"; Value = "rad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacity"; Value = "100u"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://de.rs-online.com/web/search/searchBrowseAction.html?method=getProduct&R=2286767"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_Elko_rad_100u_35V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name_Hyperlink"; Value = "Elko 100µF 35VDC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS_number"; Value = "228-6767"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "35V"; VariantName = "[No Variations]"
+Added Component: Designator=IC1_2(SOIC127P600X175-8N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Allied_Number"; Value = "R1076682"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://uk.rs-online.com/web/p/products/6807135P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.75mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Allegro Microsystems"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "ACS712ELCTR-20A-T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS Part Number"; Value = "6807135P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS Price/Stock"; Value = "http://uk.rs-online.com/web/p/products/6807135P"; VariantName = "[No Variations]"
+Added Component: Designator=IC1_3(SOIC127P600X175-8N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Allied_Number"; Value = "R1076682"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://uk.rs-online.com/web/p/products/6807135P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.75mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Allegro Microsystems"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "ACS712ELCTR-20A-T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS Part Number"; Value = "6807135P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS Price/Stock"; Value = "http://uk.rs-online.com/web/p/products/6807135P"; VariantName = "[No Variations]"
+Added Component: Designator=IC2_2(SOP65P640X120-29N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://uk.rs-online.com/web/p/products/7248704"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Allegro Microsystems"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "A3941KLPTR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS Part Number"; Value = "7248704P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS Price/Stock"; Value = "http://uk.rs-online.com/web/p/products/7248704P"; VariantName = "[No Variations]"
+Added Component: Designator=IC2_3(SOP65P640X120-29N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://uk.rs-online.com/web/p/products/7248704"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Allegro Microsystems"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "A3941KLPTR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS Part Number"; Value = "7248704P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS Price/Stock"; Value = "http://uk.rs-online.com/web/p/products/7248704P"; VariantName = "[No Variations]"
+Added Component: Designator=P1_2(WRTBL_2P_508)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://at.rs-online.com/web/search/searchBrowseAction.html?method=getProduct&R=1930586"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "WRTBL_2P_508"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name_Hyperlink"; Value = "Printklemme 5,08mm 2-polig"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS_number"; Value = "193-0586"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Con_7"; VariantName = "[No Variations]"
+Added Component: Designator=P1_3(WRTBL_2P_508)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://at.rs-online.com/web/search/searchBrowseAction.html?method=getProduct&R=1930586"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "mounting"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "WRTBL_2P_508"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name_Hyperlink"; Value = "Printklemme 5,08mm 2-polig"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS_number"; Value = "193-0586"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Con_7"; VariantName = "[No Variations]"
+Added Component: Designator=Q1_2(INF-PG-TO-263-3-2_A_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.infineon.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.infineon.com/dgdl/IPP037N06L3_Rev2.7.pdf?folderId=db3a304313b8b5a60113cee8763b02d7&fileId=db3a30431b3e89eb011b4561341f7d38"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.infineon.com/dgdl/IPB026N06N_Rev2.2.pdf?folderId=db3a304313b8b5a60113cee8763b02d7&fileId=db3a3043372d5cc8013754c7b2a74f7c"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 2.7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Green"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Halogen-free"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ID (max)"; Value = "90 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IDpuls (max)"; Value = "360 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "3-Pin Plastic (Green) Transistor Single Outline Package, 10.06 x 8.98 mm Body, 2.54 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "PG-TO-263-3-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. 01, 08/2007"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "IPB034N06L3 G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarity"; Value = "N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ptot (max)"; Value = "167 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QG"; Value = "59 nC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RDS (on) (max)"; Value = "3.7 mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RDS (on) (max) (@4.5V)"; Value = "5.7 mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rth"; Value = "0.9 K/W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RthJA (max)"; Value = "62 K/W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RthJC (max)"; Value = "0.9 K/W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 4"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "IPB034N06L3 GTR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "IPB034N06L3 GCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "IPB034N06L3 GDKR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 4"; Value = "726-IPB034N06L3G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VDS (max)"; Value = "60 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VGS(th) (max)"; Value = "2.2 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VGS(th) (min)"; Value = "1.2 V"; VariantName = "[No Variations]"
+Added Component: Designator=Q1_3(INF-PG-TO-263-3-2_A_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.infineon.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.infineon.com/dgdl/IPP037N06L3_Rev2.7.pdf?folderId=db3a304313b8b5a60113cee8763b02d7&fileId=db3a30431b3e89eb011b4561341f7d38"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.infineon.com/dgdl/IPB026N06N_Rev2.2.pdf?folderId=db3a304313b8b5a60113cee8763b02d7&fileId=db3a3043372d5cc8013754c7b2a74f7c"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 2.7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Green"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Halogen-free"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ID (max)"; Value = "90 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IDpuls (max)"; Value = "360 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "3-Pin Plastic (Green) Transistor Single Outline Package, 10.06 x 8.98 mm Body, 2.54 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "PG-TO-263-3-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. 01, 08/2007"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "IPB034N06L3 G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarity"; Value = "N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ptot (max)"; Value = "167 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QG"; Value = "59 nC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RDS (on) (max)"; Value = "3.7 mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RDS (on) (max) (@4.5V)"; Value = "5.7 mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rth"; Value = "0.9 K/W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RthJA (max)"; Value = "62 K/W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RthJC (max)"; Value = "0.9 K/W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 4"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "IPB034N06L3 GTR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "IPB034N06L3 GCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "IPB034N06L3 GDKR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 4"; Value = "726-IPB034N06L3G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VDS (max)"; Value = "60 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VGS(th) (max)"; Value = "2.2 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VGS(th) (min)"; Value = "1.2 V"; VariantName = "[No Variations]"
+Added Component: Designator=Q2_2(INF-PG-TO-263-3-2_A_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.infineon.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.infineon.com/dgdl/IPP037N06L3_Rev2.7.pdf?folderId=db3a304313b8b5a60113cee8763b02d7&fileId=db3a30431b3e89eb011b4561341f7d38"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.infineon.com/dgdl/IPB026N06N_Rev2.2.pdf?folderId=db3a304313b8b5a60113cee8763b02d7&fileId=db3a3043372d5cc8013754c7b2a74f7c"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 2.7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Green"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Halogen-free"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ID (max)"; Value = "90 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IDpuls (max)"; Value = "360 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "3-Pin Plastic (Green) Transistor Single Outline Package, 10.06 x 8.98 mm Body, 2.54 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "PG-TO-263-3-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. 01, 08/2007"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "IPB034N06L3 G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarity"; Value = "N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ptot (max)"; Value = "167 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QG"; Value = "59 nC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RDS (on) (max)"; Value = "3.7 mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RDS (on) (max) (@4.5V)"; Value = "5.7 mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rth"; Value = "0.9 K/W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RthJA (max)"; Value = "62 K/W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RthJC (max)"; Value = "0.9 K/W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 4"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "IPB034N06L3 GTR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "IPB034N06L3 GCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "IPB034N06L3 GDKR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 4"; Value = "726-IPB034N06L3G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VDS (max)"; Value = "60 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VGS(th) (max)"; Value = "2.2 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VGS(th) (min)"; Value = "1.2 V"; VariantName = "[No Variations]"
+Added Component: Designator=Q2_3(INF-PG-TO-263-3-2_A_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.infineon.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.infineon.com/dgdl/IPP037N06L3_Rev2.7.pdf?folderId=db3a304313b8b5a60113cee8763b02d7&fileId=db3a30431b3e89eb011b4561341f7d38"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.infineon.com/dgdl/IPB026N06N_Rev2.2.pdf?folderId=db3a304313b8b5a60113cee8763b02d7&fileId=db3a3043372d5cc8013754c7b2a74f7c"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 2.7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Green"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Halogen-free"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ID (max)"; Value = "90 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IDpuls (max)"; Value = "360 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "3-Pin Plastic (Green) Transistor Single Outline Package, 10.06 x 8.98 mm Body, 2.54 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "PG-TO-263-3-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. 01, 08/2007"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "IPB034N06L3 G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarity"; Value = "N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ptot (max)"; Value = "167 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QG"; Value = "59 nC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RDS (on) (max)"; Value = "3.7 mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RDS (on) (max) (@4.5V)"; Value = "5.7 mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rth"; Value = "0.9 K/W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RthJA (max)"; Value = "62 K/W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RthJC (max)"; Value = "0.9 K/W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 4"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "IPB034N06L3 GTR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "IPB034N06L3 GCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "IPB034N06L3 GDKR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 4"; Value = "726-IPB034N06L3G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VDS (max)"; Value = "60 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VGS(th) (max)"; Value = "2.2 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VGS(th) (min)"; Value = "1.2 V"; VariantName = "[No Variations]"
+Added Component: Designator=Q3_2(INF-PG-TO-263-3-2_A_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.infineon.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.infineon.com/dgdl/IPP037N06L3_Rev2.7.pdf?folderId=db3a304313b8b5a60113cee8763b02d7&fileId=db3a30431b3e89eb011b4561341f7d38"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.infineon.com/dgdl/IPB026N06N_Rev2.2.pdf?folderId=db3a304313b8b5a60113cee8763b02d7&fileId=db3a3043372d5cc8013754c7b2a74f7c"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 2.7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Green"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Halogen-free"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ID (max)"; Value = "90 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IDpuls (max)"; Value = "360 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "3-Pin Plastic (Green) Transistor Single Outline Package, 10.06 x 8.98 mm Body, 2.54 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "PG-TO-263-3-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. 01, 08/2007"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "IPB034N06L3 G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarity"; Value = "N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ptot (max)"; Value = "167 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QG"; Value = "59 nC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RDS (on) (max)"; Value = "3.7 mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RDS (on) (max) (@4.5V)"; Value = "5.7 mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rth"; Value = "0.9 K/W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RthJA (max)"; Value = "62 K/W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RthJC (max)"; Value = "0.9 K/W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 4"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "IPB034N06L3 GTR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "IPB034N06L3 GCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "IPB034N06L3 GDKR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 4"; Value = "726-IPB034N06L3G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VDS (max)"; Value = "60 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VGS(th) (max)"; Value = "2.2 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VGS(th) (min)"; Value = "1.2 V"; VariantName = "[No Variations]"
+Added Component: Designator=Q3_3(INF-PG-TO-263-3-2_A_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.infineon.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.infineon.com/dgdl/IPP037N06L3_Rev2.7.pdf?folderId=db3a304313b8b5a60113cee8763b02d7&fileId=db3a30431b3e89eb011b4561341f7d38"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.infineon.com/dgdl/IPB026N06N_Rev2.2.pdf?folderId=db3a304313b8b5a60113cee8763b02d7&fileId=db3a3043372d5cc8013754c7b2a74f7c"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 2.7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Green"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Halogen-free"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ID (max)"; Value = "90 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IDpuls (max)"; Value = "360 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "3-Pin Plastic (Green) Transistor Single Outline Package, 10.06 x 8.98 mm Body, 2.54 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "PG-TO-263-3-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. 01, 08/2007"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "IPB034N06L3 G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarity"; Value = "N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ptot (max)"; Value = "167 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QG"; Value = "59 nC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RDS (on) (max)"; Value = "3.7 mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RDS (on) (max) (@4.5V)"; Value = "5.7 mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rth"; Value = "0.9 K/W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RthJA (max)"; Value = "62 K/W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RthJC (max)"; Value = "0.9 K/W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 4"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "IPB034N06L3 GTR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "IPB034N06L3 GCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "IPB034N06L3 GDKR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 4"; Value = "726-IPB034N06L3G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VDS (max)"; Value = "60 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VGS(th) (max)"; Value = "2.2 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VGS(th) (min)"; Value = "1.2 V"; VariantName = "[No Variations]"
+Added Component: Designator=Q4_2(INF-PG-TO-263-3-2_A_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.infineon.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.infineon.com/dgdl/IPP037N06L3_Rev2.7.pdf?folderId=db3a304313b8b5a60113cee8763b02d7&fileId=db3a30431b3e89eb011b4561341f7d38"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.infineon.com/dgdl/IPB026N06N_Rev2.2.pdf?folderId=db3a304313b8b5a60113cee8763b02d7&fileId=db3a3043372d5cc8013754c7b2a74f7c"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 2.7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Green"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Halogen-free"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ID (max)"; Value = "90 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IDpuls (max)"; Value = "360 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "3-Pin Plastic (Green) Transistor Single Outline Package, 10.06 x 8.98 mm Body, 2.54 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "PG-TO-263-3-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. 01, 08/2007"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "IPB034N06L3 G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarity"; Value = "N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ptot (max)"; Value = "167 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QG"; Value = "59 nC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RDS (on) (max)"; Value = "3.7 mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RDS (on) (max) (@4.5V)"; Value = "5.7 mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rth"; Value = "0.9 K/W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RthJA (max)"; Value = "62 K/W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RthJC (max)"; Value = "0.9 K/W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 4"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "IPB034N06L3 GTR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "IPB034N06L3 GCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "IPB034N06L3 GDKR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 4"; Value = "726-IPB034N06L3G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VDS (max)"; Value = "60 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VGS(th) (max)"; Value = "2.2 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VGS(th) (min)"; Value = "1.2 V"; VariantName = "[No Variations]"
+Added Component: Designator=Q4_3(INF-PG-TO-263-3-2_A_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.infineon.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.infineon.com/dgdl/IPP037N06L3_Rev2.7.pdf?folderId=db3a304313b8b5a60113cee8763b02d7&fileId=db3a30431b3e89eb011b4561341f7d38"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.infineon.com/dgdl/IPB026N06N_Rev2.2.pdf?folderId=db3a304313b8b5a60113cee8763b02d7&fileId=db3a3043372d5cc8013754c7b2a74f7c"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 2.7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Green"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Halogen-free"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ID (max)"; Value = "90 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IDpuls (max)"; Value = "360 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "3-Pin Plastic (Green) Transistor Single Outline Package, 10.06 x 8.98 mm Body, 2.54 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "PG-TO-263-3-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. 01, 08/2007"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "IPB034N06L3 G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarity"; Value = "N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ptot (max)"; Value = "167 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QG"; Value = "59 nC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RDS (on) (max)"; Value = "3.7 mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RDS (on) (max) (@4.5V)"; Value = "5.7 mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rth"; Value = "0.9 K/W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RthJA (max)"; Value = "62 K/W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RthJC (max)"; Value = "0.9 K/W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 4"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "IPB034N06L3 GTR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "IPB034N06L3 GCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "IPB034N06L3 GDKR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 4"; Value = "726-IPB034N06L3G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VDS (max)"; Value = "60 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VGS(th) (max)"; Value = "2.2 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VGS(th) (min)"; Value = "1.2 V"; VariantName = "[No Variations]"
+Added Component: Designator=R1_2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R1_3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R2_2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R2_3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R3_2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R3_3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R4_2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R4_3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R5_2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R5_3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R6_2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R6_3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R7_2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R7_3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R8_2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R8_3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R9_2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R9_3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R10_2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R10_3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R11_2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R11_3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R12_2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R12_3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R13_2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R13_3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R14_2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Component: Designator=R14_3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Res_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Res_5"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=V+_1 Pin=C1_2-1
+Added Pin To Net: NetName=PGND_1 Pin=C1_2-2
+Added Pin To Net: NetName=V+_1 Pin=C1_3-1
+Added Pin To Net: NetName=PGND_1 Pin=C1_3-2
+Added Pin To Net: NetName=NetC2_2_1 Pin=C2_2-1
+Added Pin To Net: NetName=GND Pin=C2_2-2
+Added Pin To Net: NetName=NetC2_3_1 Pin=C2_3-1
+Added Pin To Net: NetName=GND Pin=C2_3-2
+Added Pin To Net: NetName=NetC3_2_1 Pin=C3_2-1
+Added Pin To Net: NetName=NetC3_2_2 Pin=C3_2-2
+Added Pin To Net: NetName=NetC3_3_1 Pin=C3_3-1
+Added Pin To Net: NetName=NetC3_3_2 Pin=C3_3-2
+Added Pin To Net: NetName=NetC4_2_1 Pin=C4_2-1
+Added Pin To Net: NetName=GND Pin=C4_2-2
+Added Pin To Net: NetName=NetC4_3_1 Pin=C4_3-1
+Added Pin To Net: NetName=GND Pin=C4_3-2
+Added Pin To Net: NetName=GND Pin=C5_2-1
+Added Pin To Net: NetName=GND Pin=C5_3-1
+Added Pin To Net: NetName=NetC6_2_1 Pin=C6_2-1
+Added Pin To Net: NetName=NetC6_2_2 Pin=C6_2-2
+Added Pin To Net: NetName=NetC6_3_1 Pin=C6_3-1
+Added Pin To Net: NetName=NetC6_3_2 Pin=C6_3-2
+Added Pin To Net: NetName=NetC7_2_1 Pin=C7_2-1
+Added Pin To Net: NetName=NetC7_2_2 Pin=C7_2-2
+Added Pin To Net: NetName=NetC7_3_1 Pin=C7_3-1
+Added Pin To Net: NetName=NetC7_3_2 Pin=C7_3-2
+Added Pin To Net: NetName=V+_1 Pin=C13_2-1
+Added Pin To Net: NetName=PGND_1 Pin=C13_2-2
+Added Pin To Net: NetName=V+_1 Pin=C13_3-1
+Added Pin To Net: NetName=PGND_1 Pin=C13_3-2
+Added Pin To Net: NetName=NetC6_2_2 Pin=IC1_2-1
+Added Pin To Net: NetName=NetC6_2_2 Pin=IC1_2-2
+Added Pin To Net: NetName=NetIC1_2_3 Pin=IC1_2-3
+Added Pin To Net: NetName=NetIC1_2_3 Pin=IC1_2-4
+Added Pin To Net: NetName=GND Pin=IC1_2-5
+Added Pin To Net: NetName=NetC2_2_1 Pin=IC1_2-6
+Added Pin To Net: NetName=NetIC1_2_7 Pin=IC1_2-7
+Added Pin To Net: NetName=NetC6_3_2 Pin=IC1_3-1
+Added Pin To Net: NetName=NetC6_3_2 Pin=IC1_3-2
+Added Pin To Net: NetName=NetIC1_3_3 Pin=IC1_3-3
+Added Pin To Net: NetName=NetIC1_3_3 Pin=IC1_3-4
+Added Pin To Net: NetName=GND Pin=IC1_3-5
+Added Pin To Net: NetName=NetC2_3_1 Pin=IC1_3-6
+Added Pin To Net: NetName=NetIC1_3_7 Pin=IC1_3-7
+Added Pin To Net: NetName=V+_1 Pin=IC2_2-1
+Added Pin To Net: NetName=PGND_1 Pin=IC2_2-2
+Added Pin To Net: NetName=NetIC2_2_3 Pin=IC2_2-3
+Added Pin To Net: NetName=NetC3_2_2 Pin=IC2_2-4
+Added Pin To Net: NetName=NetIC2_2_5 Pin=IC2_2-5
+Added Pin To Net: NetName=NetC3_2_1 Pin=IC2_2-6
+Added Pin To Net: NetName=NetC4_2_1 Pin=IC2_2-7
+Added Pin To Net: NetName=NetC4_2_1 Pin=IC2_2-8
+Added Pin To Net: NetName=NetC6_2_1 Pin=IC2_2-9
+Added Pin To Net: NetName=NetIC2_2_10 Pin=IC2_2-10
+Added Pin To Net: NetName=NetC6_2_2 Pin=IC2_2-11
+Added Pin To Net: NetName=NetIC2_2_12 Pin=IC2_2-12
+Added Pin To Net: NetName=V+_1 Pin=IC2_2-13
+Added Pin To Net: NetName=V+_1 Pin=IC2_2-14
+Added Pin To Net: NetName=NetC7_2_2 Pin=IC2_2-15
+Added Pin To Net: NetName=NetC7_2_1 Pin=IC2_2-16
+Added Pin To Net: NetName=GND Pin=IC2_2-17
+Added Pin To Net: NetName=GND Pin=IC2_2-18
+Added Pin To Net: NetName=DIR2 Pin=IC2_2-19
+Added Pin To Net: NetName=NetIC2_2_22 Pin=IC2_2-22
+Added Pin To Net: NetName=PWM2 Pin=IC2_2-23
+Added Pin To Net: NetName=NetIC2_2_24 Pin=IC2_2-24
+Added Pin To Net: NetName=NetIC2_2_25 Pin=IC2_2-25
+Added Pin To Net: NetName=NetIC2_2_26 Pin=IC2_2-26
+Added Pin To Net: NetName=NetIC2_2_27 Pin=IC2_2-27
+Added Pin To Net: NetName=NetIC2_2_28 Pin=IC2_2-28
+Added Pin To Net: NetName=GND Pin=IC2_2-29
+Added Pin To Net: NetName=V+_1 Pin=IC2_3-1
+Added Pin To Net: NetName=PGND_1 Pin=IC2_3-2
+Added Pin To Net: NetName=NetIC2_3_3 Pin=IC2_3-3
+Added Pin To Net: NetName=NetC3_3_2 Pin=IC2_3-4
+Added Pin To Net: NetName=NetIC2_3_5 Pin=IC2_3-5
+Added Pin To Net: NetName=NetC3_3_1 Pin=IC2_3-6
+Added Pin To Net: NetName=NetC4_3_1 Pin=IC2_3-7
+Added Pin To Net: NetName=NetC4_3_1 Pin=IC2_3-8
+Added Pin To Net: NetName=NetC6_3_1 Pin=IC2_3-9
+Added Pin To Net: NetName=NetIC2_3_10 Pin=IC2_3-10
+Added Pin To Net: NetName=NetC6_3_2 Pin=IC2_3-11
+Added Pin To Net: NetName=NetIC2_3_12 Pin=IC2_3-12
+Added Pin To Net: NetName=V+_1 Pin=IC2_3-13
+Added Pin To Net: NetName=V+_1 Pin=IC2_3-14
+Added Pin To Net: NetName=NetC7_3_2 Pin=IC2_3-15
+Added Pin To Net: NetName=NetC7_3_1 Pin=IC2_3-16
+Added Pin To Net: NetName=GND Pin=IC2_3-17
+Added Pin To Net: NetName=GND Pin=IC2_3-18
+Added Pin To Net: NetName=DIR3 Pin=IC2_3-19
+Added Pin To Net: NetName=NetIC2_3_22 Pin=IC2_3-22
+Added Pin To Net: NetName=PWM3 Pin=IC2_3-23
+Added Pin To Net: NetName=NetIC2_3_24 Pin=IC2_3-24
+Added Pin To Net: NetName=NetIC2_3_25 Pin=IC2_3-25
+Added Pin To Net: NetName=NetIC2_3_26 Pin=IC2_3-26
+Added Pin To Net: NetName=NetIC2_3_27 Pin=IC2_3-27
+Added Pin To Net: NetName=NetIC2_3_28 Pin=IC2_3-28
+Added Pin To Net: NetName=GND Pin=IC2_3-29
+Added Pin To Net: NetName=NetC3_2_2 Pin=P1_2-1
+Added Pin To Net: NetName=NetIC1_2_3 Pin=P1_2-2
+Added Pin To Net: NetName=NetC3_3_2 Pin=P1_3-1
+Added Pin To Net: NetName=NetIC1_3_3 Pin=P1_3-2
+Added Pin To Net: NetName=NetQ1_2_1 Pin=Q1_2-1
+Added Pin To Net: NetName=V+_1 Pin=Q1_2-2
+Added Pin To Net: NetName=NetC3_2_2 Pin=Q1_2-3
+Added Pin To Net: NetName=NetQ1_3_1 Pin=Q1_3-1
+Added Pin To Net: NetName=V+_1 Pin=Q1_3-2
+Added Pin To Net: NetName=NetC3_3_2 Pin=Q1_3-3
+Added Pin To Net: NetName=NetQ2_2_1 Pin=Q2_2-1
+Added Pin To Net: NetName=NetC3_2_2 Pin=Q2_2-2
+Added Pin To Net: NetName=PGND_1 Pin=Q2_2-3
+Added Pin To Net: NetName=NetQ2_3_1 Pin=Q2_3-1
+Added Pin To Net: NetName=NetC3_3_2 Pin=Q2_3-2
+Added Pin To Net: NetName=PGND_1 Pin=Q2_3-3
+Added Pin To Net: NetName=NetQ3_2_1 Pin=Q3_2-1
+Added Pin To Net: NetName=V+_1 Pin=Q3_2-2
+Added Pin To Net: NetName=NetC6_2_2 Pin=Q3_2-3
+Added Pin To Net: NetName=NetQ3_3_1 Pin=Q3_3-1
+Added Pin To Net: NetName=V+_1 Pin=Q3_3-2
+Added Pin To Net: NetName=NetC6_3_2 Pin=Q3_3-3
+Added Pin To Net: NetName=NetQ4_2_1 Pin=Q4_2-1
+Added Pin To Net: NetName=NetC6_2_2 Pin=Q4_2-2
+Added Pin To Net: NetName=PGND_1 Pin=Q4_2-3
+Added Pin To Net: NetName=NetQ4_3_1 Pin=Q4_3-1
+Added Pin To Net: NetName=NetC6_3_2 Pin=Q4_3-2
+Added Pin To Net: NetName=PGND_1 Pin=Q4_3-3
+Added Pin To Net: NetName=NetQ1_2_1 Pin=R1_2-1
+Added Pin To Net: NetName=NetIC2_2_5 Pin=R1_2-2
+Added Pin To Net: NetName=NetQ1_3_1 Pin=R1_3-1
+Added Pin To Net: NetName=NetIC2_3_5 Pin=R1_3-2
+Added Pin To Net: NetName=NetQ2_2_1 Pin=R2_2-1
+Added Pin To Net: NetName=NetIC2_2_3 Pin=R2_2-2
+Added Pin To Net: NetName=NetQ2_3_1 Pin=R2_3-1
+Added Pin To Net: NetName=NetIC2_3_3 Pin=R2_3-2
+Added Pin To Net: NetName=NetIC2_2_28 Pin=R3_2-2
+Added Pin To Net: NetName=NetIC2_3_28 Pin=R3_3-2
+Added Pin To Net: NetName=NetIC2_2_28 Pin=R4_2-1
+Added Pin To Net: NetName=GND Pin=R4_2-2
+Added Pin To Net: NetName=NetIC2_3_28 Pin=R4_3-1
+Added Pin To Net: NetName=GND Pin=R4_3-2
+Added Pin To Net: NetName=NetIC2_2_27 Pin=R5_2-1
+Added Pin To Net: NetName=GND Pin=R5_2-2
+Added Pin To Net: NetName=NetIC2_3_27 Pin=R5_3-1
+Added Pin To Net: NetName=GND Pin=R5_3-2
+Added Pin To Net: NetName=GND Pin=R6_2-1
+Added Pin To Net: NetName=PWM2 Pin=R6_2-2
+Added Pin To Net: NetName=GND Pin=R6_3-1
+Added Pin To Net: NetName=PWM3 Pin=R6_3-2
+Added Pin To Net: NetName=NetIC2_2_26 Pin=R7_2-1
+Added Pin To Net: NetName=NetIC2_3_26 Pin=R7_3-1
+Added Pin To Net: NetName=NetIC2_2_25 Pin=R8_2-1
+Added Pin To Net: NetName=NetIC2_3_25 Pin=R8_3-1
+Added Pin To Net: NetName=NetQ3_2_1 Pin=R9_2-1
+Added Pin To Net: NetName=NetIC2_2_10 Pin=R9_2-2
+Added Pin To Net: NetName=NetQ3_3_1 Pin=R9_3-1
+Added Pin To Net: NetName=NetIC2_3_10 Pin=R9_3-2
+Added Pin To Net: NetName=NetIC2_2_24 Pin=R10_2-1
+Added Pin To Net: NetName=V+_1 Pin=R10_2-2
+Added Pin To Net: NetName=NetIC2_3_24 Pin=R10_3-1
+Added Pin To Net: NetName=V+_1 Pin=R10_3-2
+Added Pin To Net: NetName=NetIC2_2_22 Pin=R11_2-1
+Added Pin To Net: NetName=NetIC2_3_22 Pin=R11_3-1
+Added Pin To Net: NetName=NetQ4_2_1 Pin=R12_2-1
+Added Pin To Net: NetName=NetIC2_2_12 Pin=R12_2-2
+Added Pin To Net: NetName=NetQ4_3_1 Pin=R12_3-1
+Added Pin To Net: NetName=NetIC2_3_12 Pin=R12_3-2
+Added Pin To Net: NetName=DIR2 Pin=R13_2-1
+Added Pin To Net: NetName=GND Pin=R13_2-2
+Added Pin To Net: NetName=DIR3 Pin=R13_3-1
+Added Pin To Net: NetName=GND Pin=R13_3-2
+Added Pin To Net: NetName=PGND_1 Pin=R14_2-1
+Added Pin To Net: NetName=GND Pin=R14_2-2
+Added Pin To Net: NetName=PGND_1 Pin=R14_3-1
+Added Pin To Net: NetName=GND Pin=R14_3-2
+Added Pin To Net: NetName=5V_1 Pin=C5_1-2
+Added Pin To Net: NetName=5V_1 Pin=IC1_1-8
+Added Pin To Net: NetName=5V_1 Pin=IC2_1-20
+Added Pin To Net: NetName=5V_1 Pin=IC2_1-21
+Added Pin To Net: NetName=5V_1 Pin=R3_1-1
+Added Pin To Net: NetName=5V_1 Pin=R7_1-2
+Added Pin To Net: NetName=5V_1 Pin=R8_1-2
+Added Pin To Net: NetName=5V_1 Pin=R11_1-2
+Added Net: Name=5V_1
+Added Pin To Net: NetName=5V_2 Pin=C5_2-2
+Added Pin To Net: NetName=5V_2 Pin=IC1_2-8
+Added Pin To Net: NetName=5V_2 Pin=IC2_2-20
+Added Pin To Net: NetName=5V_2 Pin=IC2_2-21
+Added Pin To Net: NetName=5V_2 Pin=R3_2-1
+Added Pin To Net: NetName=5V_2 Pin=R7_2-2
+Added Pin To Net: NetName=5V_2 Pin=R8_2-2
+Added Pin To Net: NetName=5V_2 Pin=R11_2-2
+Added Net: Name=5V_2
+Added Pin To Net: NetName=5V_3 Pin=C5_3-2
+Added Pin To Net: NetName=5V_3 Pin=IC1_3-8
+Added Pin To Net: NetName=5V_3 Pin=IC2_3-20
+Added Pin To Net: NetName=5V_3 Pin=IC2_3-21
+Added Pin To Net: NetName=5V_3 Pin=R3_3-1
+Added Pin To Net: NetName=5V_3 Pin=R7_3-2
+Added Pin To Net: NetName=5V_3 Pin=R8_3-2
+Added Pin To Net: NetName=5V_3 Pin=R11_3-2
+Added Net: Name=5V_3
+Added Member To Class: ClassName=Bridge_2 Member=Component C1_2 (C1) 100µF
+Added Member To Class: ClassName=Bridge_3 Member=Component C1_3 (C1) 100µF
+Added Member To Class: ClassName=Bridge_2 Member=Component C2_2 (C2) 100nF
+Added Member To Class: ClassName=Bridge_3 Member=Component C2_3 (C2) 100nF
+Added Member To Class: ClassName=Bridge_2 Member=Component C3_2 (C3) 100nF
+Added Member To Class: ClassName=Bridge_3 Member=Component C3_3 (C3) 100nF
+Added Member To Class: ClassName=Bridge_2 Member=Component C4_2 (C4) 4,7µF
+Added Member To Class: ClassName=Bridge_3 Member=Component C4_3 (C4) 4,7µF
+Added Member To Class: ClassName=Bridge_2 Member=Component C5_2 (C5) 1µF
+Added Member To Class: ClassName=Bridge_3 Member=Component C5_3 (C5) 1µF
+Added Member To Class: ClassName=Bridge_2 Member=Component C6_2 (C6) 100nF
+Added Member To Class: ClassName=Bridge_3 Member=Component C6_3 (C6) 100nF
+Added Member To Class: ClassName=Bridge_2 Member=Component C7_2 (C7) 470nF
+Added Member To Class: ClassName=Bridge_3 Member=Component C7_3 (C7) 470nF
+Added Member To Class: ClassName=Bridge_2 Member=Component C13_2 (C13) 100µF
+Added Member To Class: ClassName=Bridge_3 Member=Component C13_3 (C13) 100µF
+Added Member To Class: ClassName=Bridge_2 Member=Component IC1_2 (IC1) ACS712ELCTR-20A-T
+Added Member To Class: ClassName=Bridge_3 Member=Component IC1_3 (IC1) ACS712ELCTR-20A-T
+Added Member To Class: ClassName=Bridge_2 Member=Component IC2_2 (IC2) A3941KLPTR
+Added Member To Class: ClassName=Bridge_3 Member=Component IC2_3 (IC2) A3941KLPTR
+Added Member To Class: ClassName=Bridge_2 Member=Component P1_2 (P1) WRTBL_2P_508
+Added Member To Class: ClassName=Bridge_3 Member=Component P1_3 (P1) WRTBL_2P_508
+Added Member To Class: ClassName=Bridge_2 Member=Component Q1_2 (Q1) IPB034N06L3 G
+Added Member To Class: ClassName=Bridge_3 Member=Component Q1_3 (Q1) IPB034N06L3 G
+Added Member To Class: ClassName=Bridge_2 Member=Component Q2_2 (Q2) IPB034N06L3 G
+Added Member To Class: ClassName=Bridge_3 Member=Component Q2_3 (Q2) IPB034N06L3 G
+Added Member To Class: ClassName=Bridge_2 Member=Component Q3_2 (Q3) IPB034N06L3 G
+Added Member To Class: ClassName=Bridge_3 Member=Component Q3_3 (Q3) IPB034N06L3 G
+Added Member To Class: ClassName=Bridge_2 Member=Component Q4_2 (Q4) IPB034N06L3 G
+Added Member To Class: ClassName=Bridge_3 Member=Component Q4_3 (Q4) IPB034N06L3 G
+Added Member To Class: ClassName=Bridge_2 Member=Component R1_2 (R1) 47R5
+Added Member To Class: ClassName=Bridge_3 Member=Component R1_3 (R1) 47R5
+Added Member To Class: ClassName=Bridge_2 Member=Component R2_2 (R2) 47R5
+Added Member To Class: ClassName=Bridge_3 Member=Component R2_3 (R2) 47R5
+Added Member To Class: ClassName=Bridge_2 Member=Component R3_2 (R3) 47k
+Added Member To Class: ClassName=Bridge_3 Member=Component R3_3 (R3) 47k
+Added Member To Class: ClassName=Bridge_2 Member=Component R4_2 (R4) 4k7
+Added Member To Class: ClassName=Bridge_3 Member=Component R4_3 (R4) 4k7
+Added Member To Class: ClassName=Bridge_2 Member=Component R5_2 (R5) 47k
+Added Member To Class: ClassName=Bridge_3 Member=Component R5_3 (R5) 47k
+Added Member To Class: ClassName=Bridge_2 Member=Component R6_2 (R6) 47k
+Added Member To Class: ClassName=Bridge_3 Member=Component R6_3 (R6) 47k
+Added Member To Class: ClassName=Bridge_2 Member=Component R7_2 (R7) 47k
+Added Member To Class: ClassName=Bridge_3 Member=Component R7_3 (R7) 47k
+Added Member To Class: ClassName=Bridge_2 Member=Component R8_2 (R8) 47k
+Added Member To Class: ClassName=Bridge_3 Member=Component R8_3 (R8) 47k
+Added Member To Class: ClassName=Bridge_2 Member=Component R9_2 (R9) 47R5
+Added Member To Class: ClassName=Bridge_3 Member=Component R9_3 (R9) 47R5
+Added Member To Class: ClassName=Bridge_2 Member=Component R10_2 (R10) 20k
+Added Member To Class: ClassName=Bridge_3 Member=Component R10_3 (R10) 20k
+Added Member To Class: ClassName=Bridge_2 Member=Component R11_2 (R11) 47k
+Added Member To Class: ClassName=Bridge_3 Member=Component R11_3 (R11) 47k
+Added Member To Class: ClassName=Bridge_2 Member=Component R12_2 (R12) 47R5
+Added Member To Class: ClassName=Bridge_3 Member=Component R12_3 (R12) 47R5
+Added Member To Class: ClassName=Bridge_2 Member=Component R13_2 (R13) 47k
+Added Member To Class: ClassName=Bridge_3 Member=Component R13_3 (R13) 47k
+Added Member To Class: ClassName=Bridge_2 Member=Component R14_2 (R14) 0R
+Added Member To Class: ClassName=Bridge_3 Member=Component R14_3 (R14) 0R
+Added Room: Name=Bridge_2
+Added Room: Name=Bridge_3

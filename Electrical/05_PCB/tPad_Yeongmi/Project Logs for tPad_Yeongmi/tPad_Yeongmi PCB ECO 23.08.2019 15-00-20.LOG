@@ -1,0 +1,184 @@
+Added Component: Designator=AD_H1(Header 8x1 8.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Supplier 1"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 4"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "2698940"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "2698939"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "SAM1198-08-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 4"; Value = "2698925"; VariantName = "[No Variations]"
+Added Component: Designator=AD_L1(Header 8x1 8.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 4"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 5"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "SAM1198-08-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "2698939"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "2698940"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 4"; Value = "43085273"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 5"; Value = "2698925"; VariantName = "[No Variations]"
+Added Component: Designator=COMMS1(Header 8x1 8.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 4"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "SAM1198-08-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "2698940"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "2698939"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 4"; Value = "2698925"; VariantName = "[No Variations]"
+Added Component: Designator=DIGITAL1(HEADER 36X 8MM)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 4"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 5"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "SAM1196-18-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "48117090"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "46093326"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 4"; Value = "2698278"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 5"; Value = "2698268"; VariantName = "[No Variations]"
+Added Component: Designator=ICSP1(ICSP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 4"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 5"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "SAM1185-06-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "2699117"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "43862781"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 4"; Value = "2699091"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 5"; Value = "SAM1196-06-ND"; VariantName = "[No Variations]"
+Added Component: Designator=POWER1(Header 6x1 8.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Supplier 1"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 4"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 5"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "52553843"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "2699075"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "SAM1198-06-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 4"; Value = "2699089"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 5"; Value = "2699088"; VariantName = "[No Variations]"
+Added Component: Designator=PWM_H1(Header 8x1 8.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 4"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "SAM1198-08-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "2698940"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "2698939"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 4"; Value = "2698925"; VariantName = "[No Variations]"
+Added Component: Designator=PWM_L1(Header 8x1 8.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Supplier 1"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 4"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "2698940"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "2698939"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "SAM1198-08-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 4"; Value = "2698925"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=AD8 Pin=AD_H1-1
+Added Pin To Net: NetName=AD9 Pin=AD_H1-2
+Added Pin To Net: NetName=AD10 Pin=AD_H1-3
+Added Pin To Net: NetName=AD11 Pin=AD_H1-4
+Added Pin To Net: NetName=AD12 Pin=AD_H1-5
+Added Pin To Net: NetName=AD13 Pin=AD_H1-6
+Added Pin To Net: NetName=AD14 Pin=AD_H1-7
+Added Pin To Net: NetName=AD15 Pin=AD_H1-8
+Added Pin To Net: NetName=AD0 Pin=AD_L1-1
+Added Pin To Net: NetName=AD1 Pin=AD_L1-2
+Added Pin To Net: NetName=AD2 Pin=AD_L1-3
+Added Pin To Net: NetName=AD3 Pin=AD_L1-4
+Added Pin To Net: NetName=AD4 Pin=AD_L1-5
+Added Pin To Net: NetName=AD5 Pin=AD_L1-6
+Added Pin To Net: NetName=AD6 Pin=AD_L1-7
+Added Pin To Net: NetName=AD7 Pin=AD_L1-8
+Added Pin To Net: NetName=SCL Pin=COMMS1-1
+Added Pin To Net: NetName=SDA Pin=COMMS1-2
+Added Pin To Net: NetName=RX1 Pin=COMMS1-3
+Added Pin To Net: NetName=TX1 Pin=COMMS1-4
+Added Pin To Net: NetName=RX2 Pin=COMMS1-5
+Added Pin To Net: NetName=TX2 Pin=COMMS1-6
+Added Pin To Net: NetName=RX3 Pin=COMMS1-7
+Added Pin To Net: NetName=TX3 Pin=COMMS1-8
+Added Pin To Net: NetName=5V Pin=DIGITAL1-1
+Added Pin To Net: NetName=5V Pin=DIGITAL1-2
+Added Pin To Net: NetName=IO22 Pin=DIGITAL1-3
+Added Pin To Net: NetName=IO23 Pin=DIGITAL1-4
+Added Pin To Net: NetName=IO24 Pin=DIGITAL1-5
+Added Pin To Net: NetName=IO25 Pin=DIGITAL1-6
+Added Pin To Net: NetName=IO26 Pin=DIGITAL1-7
+Added Pin To Net: NetName=IO27 Pin=DIGITAL1-8
+Added Pin To Net: NetName=IO28 Pin=DIGITAL1-9
+Added Pin To Net: NetName=IO29 Pin=DIGITAL1-10
+Added Pin To Net: NetName=IO30 Pin=DIGITAL1-11
+Added Pin To Net: NetName=IO31 Pin=DIGITAL1-12
+Added Pin To Net: NetName=IO32 Pin=DIGITAL1-13
+Added Pin To Net: NetName=IO33 Pin=DIGITAL1-14
+Added Pin To Net: NetName=IO34 Pin=DIGITAL1-15
+Added Pin To Net: NetName=IO35 Pin=DIGITAL1-16
+Added Pin To Net: NetName=IO36 Pin=DIGITAL1-17
+Added Pin To Net: NetName=IO37 Pin=DIGITAL1-18
+Added Pin To Net: NetName=IO38 Pin=DIGITAL1-19
+Added Pin To Net: NetName=IO39 Pin=DIGITAL1-20
+Added Pin To Net: NetName=IO40 Pin=DIGITAL1-21
+Added Pin To Net: NetName=IO41 Pin=DIGITAL1-22
+Added Pin To Net: NetName=IO42 Pin=DIGITAL1-23
+Added Pin To Net: NetName=IO43 Pin=DIGITAL1-24
+Added Pin To Net: NetName=IO44 Pin=DIGITAL1-25
+Added Pin To Net: NetName=IO45 Pin=DIGITAL1-26
+Added Pin To Net: NetName=IO46 Pin=DIGITAL1-27
+Added Pin To Net: NetName=IO47 Pin=DIGITAL1-28
+Added Pin To Net: NetName=IO48 Pin=DIGITAL1-29
+Added Pin To Net: NetName=IO49 Pin=DIGITAL1-30
+Added Pin To Net: NetName=IO50 Pin=DIGITAL1-31
+Added Pin To Net: NetName=IO51 Pin=DIGITAL1-32
+Added Pin To Net: NetName=IO52 Pin=DIGITAL1-33
+Added Pin To Net: NetName=IO53 Pin=DIGITAL1-34
+Added Pin To Net: NetName=GND Pin=DIGITAL1-35
+Added Pin To Net: NetName=GND Pin=DIGITAL1-36
+Added Pin To Net: NetName=MISO Pin=ICSP1-1
+Added Pin To Net: NetName=5V Pin=ICSP1-2
+Added Pin To Net: NetName=SCK Pin=ICSP1-3
+Added Pin To Net: NetName=MOSI Pin=ICSP1-4
+Added Pin To Net: NetName=RESET Pin=ICSP1-5
+Added Pin To Net: NetName=GND Pin=ICSP1-6
+Added Pin To Net: NetName=VIN Pin=POWER1-1
+Added Pin To Net: NetName=GND Pin=POWER1-2
+Added Pin To Net: NetName=GND Pin=POWER1-3
+Added Pin To Net: NetName=5V Pin=POWER1-4
+Added Pin To Net: NetName=3V3 Pin=POWER1-5
+Added Pin To Net: NetName=RESET Pin=POWER1-6
+Added Pin To Net: NetName=PWM8 Pin=PWM_H1-1
+Added Pin To Net: NetName=PWM9 Pin=PWM_H1-2
+Added Pin To Net: NetName=PWM10 Pin=PWM_H1-3
+Added Pin To Net: NetName=PWM11 Pin=PWM_H1-4
+Added Pin To Net: NetName=PWM12 Pin=PWM_H1-5
+Added Pin To Net: NetName=PWM13 Pin=PWM_H1-6
+Added Pin To Net: NetName=GND Pin=PWM_H1-7
+Added Pin To Net: NetName=AREF Pin=PWM_H1-8
+Added Pin To Net: NetName=RX0 Pin=PWM_L1-1
+Added Pin To Net: NetName=TX0 Pin=PWM_L1-2
+Added Pin To Net: NetName=PWM2 Pin=PWM_L1-3
+Added Pin To Net: NetName=PWM3 Pin=PWM_L1-4
+Added Pin To Net: NetName=PWM4 Pin=PWM_L1-5
+Added Pin To Net: NetName=PWM5 Pin=PWM_L1-6
+Added Pin To Net: NetName=PWM6 Pin=PWM_L1-7
+Added Pin To Net: NetName=PWM7 Pin=PWM_L1-8
+Added Member To Class: ClassName=U_Arduino Member=Component AD_H1 AD_H
+Added Member To Class: ClassName=U_Arduino Member=Component AD_L1 AD_L
+Added Member To Class: ClassName=U_Arduino Member=Component COMMS1 Communication
+Added Member To Class: ClassName=U_Arduino Member=Component DIGITAL1 IO_36
+Added Member To Class: ClassName=U_Arduino Member=Component ICSP1 ICSP
+Added Member To Class: ClassName=U_Arduino Member=Component POWER1 POWER
+Added Member To Class: ClassName=U_Arduino Member=Component PWM_H1 PWM_H
+Added Member To Class: ClassName=U_Arduino Member=Component PWM_L1 PWM_L

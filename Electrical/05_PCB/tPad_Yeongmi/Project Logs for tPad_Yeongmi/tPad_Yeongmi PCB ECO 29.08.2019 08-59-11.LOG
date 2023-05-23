@@ -1,0 +1,31 @@
+Added Component: Designator=C8_1(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_129"; VariantName = "[No Variations]"
+Added Component: Designator=C8_2(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_129"; VariantName = "[No Variations]"
+Added Component: Designator=C8_3(_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "mounting"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Cap_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "QR"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "UID"; Value = "Cap_129"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C8_1-1
+Added Pin To Net: NetName=5V_1 Pin=C8_1-2
+Added Pin To Net: NetName=GND Pin=C8_2-1
+Added Pin To Net: NetName=5V_2 Pin=C8_2-2
+Added Pin To Net: NetName=GND Pin=C8_3-1
+Added Pin To Net: NetName=5V_3 Pin=C8_3-2
+Added Member To Class: ClassName=Bridge_1 Member=Component C8_1 (C8) 100nF
+Added Member To Class: ClassName=Bridge_2 Member=Component C8_2 (C8) 100nF
+Added Member To Class: ClassName=Bridge_3 Member=Component C8_3 (C8) 100nF
+Added Member To Class: ClassName=Overview Member=Component P15 WRTBL_3P_508
+Added Member To Class: ClassName=Overview Member=Component P16 WRTBL_3P_508
+Added Room: Name=Overview
+Added Room: Name=PowerSupply
